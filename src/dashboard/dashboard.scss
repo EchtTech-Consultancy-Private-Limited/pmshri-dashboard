@@ -202,6 +202,19 @@
         }
     }
 
+    .readMorehome {
+        background: #78356c;
+        width: 140px;
+        border-radius: 5px;
+        float: right;
+        border: 1px solid #78356c;
+
+        &:hover {
+            background: #fff;
+        }
+
+    }
+
 
     @media (max-width: 1399px) {
 
@@ -215,7 +228,9 @@
                 overflow: visible;
             }
 
-            .card-box1 .text-card{font-size: 26px;}
+            .card-box1 .text-card {
+                font-size: 26px;
+            }
         }
 
         .second-card-circle {
@@ -241,13 +256,14 @@
                 left: 14%;
             }
 
-            .main-heading-text-circle {           
+            .main-heading-text-circle {
                 top: 37%;
-                left: 29.5% !important;    
+                left: 29.5% !important;
+
                 .text-b {
                     padding-top: 15px;
 
-                    h2{
+                    h2 {
                         font-size: 1.5rem;
                     }
                 }
@@ -263,16 +279,17 @@
             width: 130px !important;
             height: 130px !important;
 
-           .icon-circle img {
+            .icon-circle img {
                 width: 28px !important;
                 margin-right: 3px !important;
             }
 
-          .card-normal-text {
+            .card-normal-text {
                 font-size: 10px !important;
                 margin-top: 4px !important;
             }
-          .padding-box {
+
+            .padding-box {
                 padding: 10px 7px !important;
             }
 
@@ -284,11 +301,13 @@
             &.card-box3 {
                 left: 2% !important;
             }
+
             &.card-box4 {
-                right:20% !important;
+                right: 20% !important;
             }
+
             &.card-box5 {
-                right:2% !important;
+                right: 2% !important;
             }
 
         }
@@ -299,22 +318,20 @@
         font-size: 2rem;
     }
 
- .content-box .main-text-c.m-big {
-    font-size: 34px;
-    letter-spacing: 0px;
-}
+    .content-box .main-text-c.m-big {
+        font-size: 34px;
+        letter-spacing: 0px;
+    }
 
-.content-box .sub-text-c {
-    font-size: 14px;
-}
+    .content-box .sub-text-c {
+        font-size: 14px;
+    }
 
-@media (max-width: 767px) {
-
-    
-
-}
+    @media (max-width: 767px) {}
 
 
 }
 
-.heading-blue.before-d:after{display: none;}
+.heading-blue.before-d:after {
+    display: none;
+}
