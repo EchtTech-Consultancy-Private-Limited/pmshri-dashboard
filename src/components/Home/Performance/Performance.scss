@@ -1,0 +1,134 @@
+@import 'src/styles/_mixin.scss';
+
+.performance-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 4px #15223214;
+    border-radius: 6px;
+    padding: 30px;
+    @media (max-width: 991px) {
+        padding: 15px;
+    }
+    &-header {
+        @include d_flex_between;
+        flex-flow: wrap;
+        // padding-bottom: 30px;
+    }
+}
+
+.performance-graph{
+    #PgiGradeGraph > div{
+        height: 400px;
+        @media (max-width: 767px) {
+            height: 400px;
+        }
+        .highcharts-container{
+            height: 400px !important;
+            @media (max-width: 767px) {
+                height: 400px;
+            }
+        }
+    }
+    #india-map > div,
+    #multiColorGraph > div{
+        height: 550px;
+        @media (max-width: 767px) {
+            height: 400px;
+        }
+        .highcharts-container{
+            height: 550px !important;
+            @media (max-width: 767px) {
+                height: 400px;
+            }
+        }
+    }
+}
+
+
+.performancetab-wrap {
+    display: flex;
+    align-items: center;
+    .performance-tabs {
+        border: 1px solid #D7DBEC;
+        border-radius: 4px;
+        margin: 0 15px;
+        @media (max-width: 991px) {
+            margin: 10px 10px 10px 0px;
+        }
+        .nav-item{
+            &:nth-child(1) {
+                .nav-link {
+                    border-radius: 4px 0px 0px 4px;
+                }
+            }
+            &:nth-child(2) {
+                .nav-link {
+                    border-radius: 0px 4px 4px 0px;
+                }
+            }
+            .nav-link {
+                border: none;
+                background: #fff;
+                border-radius: 4px;
+                padding: 5px 10px;
+                &.active {
+                    background: #7E84A3;
+                    color: #fff;
+                    span {
+                        color: #fff;
+                    }
+                }
+                span {
+                    font-size: 1.75em;
+                    display: block;
+                    color: #7E84A3;
+                }
+            }
+        }
+    }
+}
+
+
+.gradecolor-list{
+    ul{
+        li{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            p {
+                display: flex;
+                align-items: center;
+                font-size: 0.813em;
+                letter-spacing: 0px;
+                color: #131523;
+                margin: 0;
+                font-weight: 500;
+                // @media (max-width: 991px) {
+                //     font-size: 0.625em;
+                // }
+            }
+        }
+    }
+    
+    .gradecolor-card {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+}
+
+.readMorehome{
+    a{
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    &:hover{
+
+        a{
+        color: #f3372f;
+        }
+    }
+
+}

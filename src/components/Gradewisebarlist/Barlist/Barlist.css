@@ -1,0 +1,30 @@
+.barlist .text-sm {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.barlist-content {
+  display: flex;
+  align-items: center;
+}
+.barlist-content span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.barlist-content a {
+  font-size: 0.875em;
+  letter-spacing: 0.09px;
+  color: #131523;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  margin-left: 7px;
+}
+.barlist .heading-sm {
+  color: #383876;
+}/*# sourceMappingURL=Barlist.css.map */

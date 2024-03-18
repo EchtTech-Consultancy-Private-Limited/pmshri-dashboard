@@ -1,0 +1,47 @@
+.barlist {
+    .text-sm {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    &-content {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        a {
+            font-size: 0.875em;
+            letter-spacing: 0.09px;
+            color: #131523;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 5px 0;
+            display: block;
+            width: fit-content;
+            position: relative;
+            margin-left: 7px;
+
+            // &::before {
+            //     content: '';
+            //     width: 6px;
+            //     height: 6px;
+            //     border-radius: 50%;
+            //     background-color: #383876;
+            //     position: absolute;
+            //     left: -10px;
+            //     top: 50%;
+            //     transform: translate(-50%, -50%);
+            // }
+        }
+    }
+
+    .heading-sm {
+        color: #383876;
+    }
+}

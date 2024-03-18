@@ -1,0 +1,64 @@
+.faq-sec1 {
+	padding: 50px 0;
+	background: linear-gradient(90deg, #fff7f3, #f2eff8, #f1eef9);
+
+}
+
+.faq-sec1 p {
+	font-family: 'Poppins', sans-serif;
+	color: #131523;
+	letter-spacing: 0;
+	line-height: 1.5;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.accordion-item {
+	border-left: none !important;
+	border-right: none !important;
+	margin-bottom: 10px;
+}
+
+.accordion-item:first-of-type,
+.accordion-button {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	border-top: none !important;
+}
+
+.accordion-button {
+	outline: none !important;
+	box-shadow: none !important;
+	font-family: 'Poppins', sans-serif;
+	color: #131523;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: .07px;
+	line-height: 1.2;
+	background-color:#F4F7FC !important
+}
+
+.accordion-button:not(.collapsed) {
+
+	color: #000;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(./images/down-arrow.svg);
+}
+.accordion-collapse{background-color: #fff;}
+.faq-sec1 .accordion-body ul {padding-left: 25px;}
+.faq-sec1 .accordion-body li {font-size: 15px; line-height: normal; margin: 0 0 7px; list-style: disclosure-closed ;} 
+.accordion-button:not(.collapsed){}
+.heading-blue::after{background: #fff !important;}
+.banner-faq {
+    background-image: url('../assets/images/faq_pmshri.jpg');
+
+}
+
+@media only screen and (max-width: 767px) {
+	.faq-sec1 p {font-size: 14px;}
+	.accordion-button{font-size: 16px;}
+}

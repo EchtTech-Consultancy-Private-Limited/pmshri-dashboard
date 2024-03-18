@@ -1,0 +1,41 @@
+.scores-card {
+  text-align: center;
+  cursor: pointer;
+}
+.scores-card-header {
+  letter-spacing: 0.09px;
+  color: #5A607F;
+  font-size: 0.875em;
+  font-weight: 400;
+  margin: 15px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  overflow: hidden;
+  min-height: 55px;
+}
+.scores-card-box {
+  padding: 20px 0;
+  border-radius: 8px;
+}
+.scores-card-box img {
+  filter: invert(1);
+  height: 45px;
+}
+.scores-card-no {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  display: block;
+  padding: 20px 0 5px 0;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1;
+}
+.scores-card-desc {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-size: 0.813em;
+  font-weight: 400;
+  margin: 0;
+}/*# sourceMappingURL=ScoreCard.css.map */

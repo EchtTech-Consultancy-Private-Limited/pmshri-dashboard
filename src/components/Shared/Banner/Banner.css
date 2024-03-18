@@ -1,0 +1,38 @@
+.common-banner-heading {
+  font-size: 2em;
+  color: #131523;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  margin: 0;
+  padding: 10px 0;
+}
+.common-banner-desc {
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 0.07px;
+  color: #131523;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.common-banner .ellipse-img-wrap {
+  position: relative;
+  text-align: center;
+}
+.common-banner .ellipse-img-wrap .ellipse-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 30px;
+}
+.common-banner .ellipse-img-wrap .ellipse-content img {
+  height: 45px;
+}
+@media (max-width: 767px) {
+  .common-banner .ellipse-img-wrap {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,98 @@
+.indicator-accordion .accordion-item {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 8px !important;
+  border: none;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.indicator-accordion .accordion-item .accordion-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+}
+.indicator-accordion .accordion-item .accordion-header .accordion-button {
+  letter-spacing: 0.07px;
+  color: #131523;
+  font-size: 0.5em;
+  font-weight: 500;
+  padding: 10px 0;
+  background: transparent;
+  box-shadow: none;
+}
+.indicator-accordion .accordion-item .accordion-header .accordion-button::after {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
+  background-image: url("../../../assets/images/download.svg");
+}
+.indicator-accordion .accordion-item .accordion-header img {
+  height: 45px;
+  margin-right: 15px;
+}
+.indicator-accordion .accordion-item .accordion-header .txt-black {
+  letter-spacing: 0.07px;
+  color: #131523;
+  font-size: 0.5em;
+  font-weight: 500;
+  position: absolute;
+  right: 30px;
+}
+@media (max-width: 767px) {
+  .indicator-accordion .accordion-item .accordion-header .txt-black {
+    position: relative;
+    right: 0;
+    padding: 10px 0;
+  }
+}
+.indicator-accordion .accordion-item .accordion-collapse {
+  border-top: 1px dashed #7E84A3;
+}
+.indicator-accordion .accordion-body {
+  padding: 15px 0;
+}
+
+.indicator-table .table > :not(:first-child) {
+  border-top: 1px solid #D7DBEC;
+}
+.indicator-table tr:last-child td {
+  border: none;
+}
+.indicator-table th {
+  letter-spacing: 0px;
+  color: #0D0D0D;
+  font-size: 0.875em;
+  font-weight: 500;
+  border: none;
+}
+.indicator-table th:nth-child(3), .indicator-table th:nth-child(4) {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .indicator-table th:nth-child(2), .indicator-table th:nth-child(3) {
+    min-width: 200px;
+  }
+}
+.indicator-table td {
+  letter-spacing: 0px;
+  color: #131523 !important;
+  font-size: 0.813em;
+  padding: 15px !important;
+}
+.indicator-table td:nth-child(3), .indicator-table td:nth-child(4) {
+  text-align: center;
+}
+
+.indicator-score h3 {
+  letter-spacing: 0px;
+  color: #7E84A3;
+  font-size: 0.75em;
+  margin: 0;
+  line-height: 2;
+}
+.indicator-score p {
+  letter-spacing: 0px;
+  color: #131523;
+  font-size: 0.875em;
+  margin: 0;
+}/*# sourceMappingURL=IndicatorAccordion.css.map */

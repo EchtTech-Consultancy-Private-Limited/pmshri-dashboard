@@ -1,0 +1,38 @@
+.district-grade {
+  box-shadow: 0px 1px 4px rgba(21, 34, 50, 0.0784313725);
+  border-radius: 6px;
+  background: #fff;
+  padding: 30px;
+}
+@media (max-width: 991px) {
+  .district-grade {
+    padding: 15px;
+  }
+}
+.district-grade-list ul {
+  display: flex;
+  flex-flow: wrap;
+}
+.district-grade-list ul li .grade-list {
+  letter-spacing: 0px;
+  color: #131523;
+  text-decoration: none;
+  font-size: 0.875em;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: auto;
+}
+.district-grade-list ul li .grade-list span {
+  font-size: 12px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+@media (max-width: 991px) {
+  .district-grade-list ul li .grade-list {
+    font-size: 0.75em;
+  }
+}/*# sourceMappingURL=DistrictScores.css.map */
