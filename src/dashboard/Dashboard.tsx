@@ -10,6 +10,7 @@ import electricity from 'src/assets/images/electricity-d.svg';
 import playground from 'src/assets/images/playground-d.svg';
 import computer from 'src/assets/images/computer-d.svg';
 import internet from 'src/assets/images/internet-d.svg';
+import { Link } from 'react-router-dom';
 
 
 export default function Dashboard() {
@@ -29,6 +30,15 @@ export default function Dashboard() {
                 <div className="container">
 
                     <div className="row">
+                        <div className="col-md-12">
+                            <div className="readMorehome">
+                                <Link to="/state" className='btn'>School List <span className="material-icons-round">
+                                    read_more
+                                </span>
+                                </Link>
+
+                            </div>
+                        </div>
                         <div className="col-md-7 mx-auto">
                             <div className="performance-card mtb-20 p-3">
                                 <div className="advance-search-container">
@@ -257,14 +267,14 @@ export default function Dashboard() {
 
 
                                         <div className="main-heading-text-circle">
-                                           <div className="text-b text-center">
+                                            <div className="text-b text-center">
                                                 <h2 className="heading-md mb-0">
                                                     Facilities
                                                 </h2>
                                                 <p className="sub-heading">
                                                     In Schools
                                                 </p>
-                                           </div>
+                                            </div>
                                         </div>
 
 
