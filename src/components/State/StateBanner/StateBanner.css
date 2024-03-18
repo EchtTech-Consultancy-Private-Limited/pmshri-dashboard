@@ -1,0 +1,157 @@
+.state-card-top {
+  padding: 15px;
+  box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+.state-card-title {
+  letter-spacing: 0px;
+  color: #5A607F;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  line-height: 2;
+}
+.state-card-name {
+  letter-spacing: 0.07px;
+  font-size: 1.4em;
+  margin: 0;
+}
+.state-card-list {
+  padding: 10px 0;
+}
+.state-card-list ul {
+  padding: 0;
+  list-style: none;
+}
+.state-card-list ul li p {
+  font-weight: 500;
+  letter-spacing: 0.07px;
+  color: #131523;
+  margin: 0;
+  font-size: 1em;
+}
+
+.state-colorcard {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.state-colorcard h2 {
+  letter-spacing: 0px;
+  font-size: 0.875em;
+  font-weight: 400;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+.state-colorcard p {
+  letter-spacing: 0px;
+  color: #131523;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
+}
+.state-colorcard .card-daksh,
+.state-colorcard .card-utkarsh,
+.state-colorcard .card-ati-uttam,
+.state-colorcard .card-uttam,
+.state-colorcard .card-prachesta-1,
+.state-colorcard .card-prachesta-2,
+.state-colorcard .card-prachesta-3,
+.state-colorcard .card-akanshi-1,
+.state-colorcard .card-akanshi-2,
+.state-colorcard .card-akanshi-3 {
+  border-radius: 4px 4px 0 0;
+}
+
+.color-striped .card-utkarsh {
+  background: rgb(187, 61, 165);
+  background: linear-gradient(180deg, rgb(187, 61, 165) 7%, rgb(92, 15, 78) 64%) !important;
+  color: #fff;
+}
+
+.color-striped .card-ati-uttam {
+  background: #7D7DFF;
+  color: #fff;
+}
+
+.color-striped .card-uttam {
+  background: linear-gradient(175deg, rgb(0, 150, 50) 0%, rgb(120, 53, 108) 100%) !important;
+  color: #fff;
+}
+
+.color-striped .card-prachesta-1 {
+  background: #96FF96;
+  color: #131523;
+}
+
+.color-striped .card-prachesta-2 {
+  background: #FFFF00;
+  color: #131523;
+}
+
+.color-striped .card-daksh {
+  background: rgb(254, 71, 38);
+  background: linear-gradient(234deg, rgb(254, 71, 38) 7%, rgb(92, 15, 78) 64%) !important;
+  color: #fff;
+}
+
+.state-card-list .rounded-card-animation {
+  padding: 12px;
+  border-bottom-right-radius: 80px;
+  transition: 0.3s;
+}
+.state-card-list :hover {
+  border-bottom-right-radius: 0px !important;
+}
+.state-card-list .grade {
+  padding: 15px 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.state-d-card {
+  margin: 0 !important;
+  width: 100%;
+}
+.state-d-card .small-card-s {
+  padding: 0px 5px;
+}
+.state-d-card .category-card-wrap {
+  margin: 6px 0px 10px !important;
+}
+
+.state-card-top.card-details {
+  margin-bottom: 15px;
+  text-align: left;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  min-height: 95px;
+}
+.state-card-top.card-details.active-school-type {
+  border: 1px solid #97d197;
+}
+.state-card-top.card-details img {
+  width: 35px;
+  height: 35px;
+  margin-right: 0px;
+}
+.state-card-top.card-details .state-card-name {
+  font-size: 1.2em;
+}
+.state-card-top.card-details .state-card-title {
+  font-size: 0.8em;
+}
+
+.state-card-list.districtcard-list .col:not(:last-child) {
+  padding-right: 0px;
+}/*# sourceMappingURL=StateBanner.css.map */

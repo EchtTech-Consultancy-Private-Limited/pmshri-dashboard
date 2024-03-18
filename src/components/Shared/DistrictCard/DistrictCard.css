@@ -1,0 +1,35 @@
+.districtcard-list .category-card-wrap {
+  margin: 10px 0;
+}
+.districtcard-list .category-card-wrap .category-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.districtcard-list .category-card-wrap .category-card-content {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.districtcard-list .category-card-wrap .category-card-content img {
+  height: 40px;
+  margin-right: 15px;
+}
+.districtcard-list .category-card-wrap .category-card-header {
+  font-size: 0.875em;
+  font-weight: 600;
+  letter-spacing: 0.09px;
+  color: #131523;
+  min-height: auto;
+  margin: 0;
+  text-align: left;
+}
+.districtcard-list .category-card-wrap .category-card-box {
+  padding: 15px;
+  border-radius: 0px 6px 6px 0px;
+  min-width: 75px;
+}
+.districtcard-list .category-card-wrap .category-card-no {
+  font-size: 1.5em;
+  font-weight: 500;
+}/*# sourceMappingURL=DistrictCard.css.map */

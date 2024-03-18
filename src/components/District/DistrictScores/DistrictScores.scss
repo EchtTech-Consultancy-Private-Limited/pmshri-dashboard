@@ -1,0 +1,50 @@
+.district-grade {
+    box-shadow: 0px 1px 4px #15223214;
+    border-radius: 6px;
+    background: #fff;
+    padding: 30px;
+    @media (max-width: 991px) {
+        padding: 15px;
+    }
+    &-list {
+        ul {
+            display: flex;
+            flex-flow: wrap;
+            li {
+                .grade-list {
+                    letter-spacing: 0px;
+                    color: #131523;
+                    text-decoration: none;
+                    font-size: 0.875em;
+                    line-height: 1.5;
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 0;
+                    width: fit-content;
+                    cursor: auto;   
+                    span{
+                        font-size: 12px;
+                        border-radius: 2px;
+                        margin-right: 10px;
+                    }
+                    // &::before{
+                    //     content: '';
+                    //     display: block;
+                    //     background: #7D7DFF;
+                    //     width: 12px;
+                    //     height: 12px;
+                    //     border-radius: 2px;
+                    //     margin-right: 10px;
+                    //     @media (max-width: 991px) {
+                    //         width: 10px;
+                    //         height: 10px;
+                    //     }
+                    // }
+                    @media (max-width: 991px) {
+                        font-size: 0.75em;
+                    }
+                }
+            }
+        }
+    }
+}

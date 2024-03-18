@@ -1,0 +1,21 @@
+.category-top-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding-bottom: 30px;
+    h2 {
+        letter-spacing: 0.14px;
+        color: #131523;
+        font-size: 1.375em;
+        font-weight: 600;
+        margin: 0 15px 0 0;
+    }
+    p {
+        letter-spacing: 0.07px;
+        color: #131523;
+        font-size: 1em;
+        font-weight: 500;
+        margin: 0;
+    }
+}

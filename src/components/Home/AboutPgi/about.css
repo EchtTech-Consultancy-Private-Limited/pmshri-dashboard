@@ -1,0 +1,33 @@
+.about-sec .hero-banner-img img {
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  height: 395px;
+}
+
+.about-sec .hero-banner-img img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .about-sec .hero-banner-img img {
+    height: auto;
+  }
+  h2.heading-blue.pb-5 {
+    padding-bottom: 1rem !important;
+  }
+
+  .portfolio .portfolio-flters li{
+    padding: 6px 0px;
+    margin: 0 5px;
+  }
+  .portfolio .portfolio-flters li button.nav-link {
+    padding: 10px 15px;
+  }
+
+  .heading-blue{
+    font-weight: 500;
+  }
+
+}

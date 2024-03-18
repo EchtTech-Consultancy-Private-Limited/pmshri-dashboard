@@ -1,0 +1,210 @@
+@import 'src/styles/_mixin.scss';
+
+.performance-card {
+    background: #ffffff;
+    box-shadow: 0px 1px 4px #15223214;
+    border-radius: 6px;
+    padding: 30px;
+
+    @media (max-width: 991px) {
+        padding: 15px;
+    margin: 10px;
+}
+
+    &-header {
+        @include d_flex_between;
+        flex-flow: wrap;
+        // padding-bottom: 30px;
+    }
+}
+
+.performance-graph {
+    #PgiGradeGraph>div {
+        height: 400px;
+
+        @media (max-width: 767px) {
+            height: 400px;
+        }
+
+        .highcharts-container {
+            height: 400px !important;
+
+            @media (max-width: 767px) {
+                height: 400px;
+            }
+        }
+    }
+
+    #india-map>div,
+    #multiColorGraph>div {
+        height: 590px;
+        margin-top: 0;
+
+        @media (max-width: 767px) {
+            height: 400px;
+        }
+
+        .highcharts-container {
+            height: 590px !important;
+
+            @media (max-width: 767px) {
+                height: 400px;
+            }
+        }
+    }
+}
+
+
+.performance-graph .btn-wrap .btn-solid{
+z-index: 9;
+}
+
+.performancetab-wrap {
+    display: flex;
+    align-items: center;
+
+    .performance-tabs {
+        border: 1px solid #D7DBEC;
+        border-radius: 4px;
+        margin: 0 15px;
+
+        @media (max-width: 991px) {
+            margin: 10px 10px 10px 0px;
+        }
+
+        .nav-item {
+            &:nth-child(1) {
+                .nav-link {
+                    border-radius: 4px 0px 0px 4px;
+                }
+            }
+
+            &:nth-child(2) {
+                .nav-link {
+                    border-radius: 0px 4px 4px 0px;
+                }
+            }
+
+            .nav-link {
+                border: none;
+                background: #fff;
+                border-radius: 4px;
+                padding: 5px 10px;
+
+                &.active {
+                    background: #7E84A3;
+                    color: #fff;
+
+                    span {
+                        color: #fff;
+                    }
+                }
+
+                span {
+                    font-size: 1.75em;
+                    display: block;
+                    color: #7E84A3;
+                }
+            }
+        }
+    }
+}
+
+
+.gradecolor-list {
+    ul {
+        li {
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            p {
+                display: flex;
+                align-items: center;
+                font-size: 0.813em;
+                letter-spacing: 0px;
+                color: #131523;
+                margin: 0;
+                font-weight: 500;
+                // @media (max-width: 991px) {
+                //     font-size: 0.625em;
+                // }
+            }
+        }
+    }
+
+    .gradecolor-card {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+}
+
+.districtcard-list {
+
+    .category-card-wrap {
+        .category-card-box {
+            padding: 10px !important;
+        }
+
+
+    }
+
+    .category-card-content {
+        img {
+            width: 38px !important;
+        }
+    }
+
+    .small-card-s {
+
+        .category-card-wrap {
+
+
+            margin: 6px 16px 10px;
+
+            .category-card-box {
+                padding: 5px;
+                min-width: 45px;
+            }
+
+            .category-card-content {
+                padding: 0px;
+            }
+
+            .category-card-header {
+                font-size: 0.75em;
+            }
+
+          
+        }
+    }
+}
+
+.add-border-bottom {
+    border-bottom: 1px solid #ec3b4b;
+    border-bottom-right-radius: 6px;
+}
+
+
+.small-card-s {
+    position: relative;
+    margin-top: 10px !important;
+}
+
+p.category-card-text {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #000;
+    text-align: center;  
+    font-weight: 500;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    p.category-card-text{font-size: 11px;}
+    // .pgicategory-card-desc{font-size: 0.72em !important;}
+    .padd-card .pgicategory-card-link {
+        padding-top: 18px;
+    }
+}

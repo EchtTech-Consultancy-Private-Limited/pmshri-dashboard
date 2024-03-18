@@ -1,0 +1,259 @@
+.sqaf-category .mt-minus-19 {
+    margin-top: -14.7rem;
+}
+
+.sqaf-category .mt-minus-6 {
+    margin-top: -5.3rem;
+}
+
+
+.sqaf-banner .common-banner-heading {
+    font-size: 1.4em !important;
+    color: #131523;
+    line-height: 1.4 !important;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.sqaf-banner .common-banner .ellipse-img-wrap .ellipse-content img {
+    width: 70px;
+    height: auto !important;
+}
+
+.sqaf-category .pgicategory-card {
+    min-height: 443px;
+    /* background: #ebfaff; */
+    box-shadow: 0px 0px 28px #dddbdb;
+    border-radius: 10px;
+    margin: 0px 0 20px;
+}
+
+.img-box-design {
+    background: #fff;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.box-alignment {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.sqaf-category .pgicategory-card:hover {
+    background: #d94148;
+}
+
+.sqaf-category .mt-plus-8 {
+    margin-top: 5rem;
+}
+
+
+.sqaf-category .pgicategory-card:hover .img-box-design {
+    background: #d94148;
+    border: 2px solid #ffffff;
+}
+
+.piller-box-img img {
+    width: 200px;
+    height: 1040px !important;
+}
+
+.sqaf-category .heading-blue {
+    color: #383876;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.banner1-c {
+    padding: 30px 0 !important;
+}
+
+.banner1-c .hero-banner-img img {
+    height: 350px;
+    object-fit: contain;
+}
+
+img.about-image-size {
+    height: 460px;
+    object-fit: cover;
+}
+
+.filter-btn.readMorehome {
+    padding: 7px 10px !important;
+    width: 100%;
+}
+
+.view-d {
+    display: flex;
+    justify-content: center;
+}
+
+.view-d .readMorehome {
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+}
+
+@media (max-width: 767px) {
+    .piller-box-img img {
+        display: none;
+    }
+
+    .sqaf-category .mt-plus-8 {
+        margin-top: 0rem;
+    }
+
+    .sqaf-category .pgicategory-card {
+        min-height: auto;
+    }
+
+    .sqaf-category .common-content {
+        margin-bottom: 25px;
+    }
+
+    img.about-image-size {
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 25px;
+    }
+
+    .banner1-c .hero-banner-img img {
+        height: 280px;
+    }
+
+}
+
+.sqaf-category .pgicategory-card-link a {
+    justify-content: center;
+}
+
+.sqaf-details-tabs table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.sqaf-details-tabs table thead th {
+    color: #ffffff;
+    background: #004976;
+    padding: 8px 15px;
+    border: 1px solid #ebebec;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.sqaf-details-tabs table tr {
+    background: #ffffff;
+}
+
+.sqaf-details-tabs table tr td {
+    border: 1px solid #e6edf1;
+    padding: 8px 15px;
+    vertical-align: middle;
+}
+
+.modal-header {
+    padding: 10px 15px !important;
+}
+
+.modal.show .modal-dialog {
+    margin-top: 14%;
+}
+
+.modal-footer,
+.modal-footer .btn {
+    padding: 5px 10px !important;
+}
+
+.modal-body table tr th {
+    color: #ffffff;
+    background: #004976;
+    padding: 8px 15px;
+    border: 1px solid #ebebec;
+    font-weight: 500;
+    font-size: 15px;
+    vertical-align: middle;
+    width: 50%;
+}
+.modal-body table tr td {
+    border: 1px solid #e6edf1;
+    padding: 8px 15px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.react-tabs__tab {
+    font-weight: 300;
+    padding: 6px 12px;
+    width: 33%;
+    font-size: 14px;
+    background: #f7f7f7;
+}
+
+.react-tabs__tab:not(:last-child){margin-right: 6px;}
+.react-tabs__tab-list {border-bottom: 0;}
+
+.w-150{
+    width: 150px !important;
+}
+.react-tabs__tab--selected{border-color: #aaa;font-weight: 500;background-color: #dcf8ff;}
+table tr .btn-th-width{width: 120px;}
+
+@media (min-width: 767px) {
+    .modal-dialog {
+        max-width: 1000px !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .sqaf-details-tabs table thead {
+        display: none;
+    }
+
+    .sqaf-details-tabs table tbody {
+        display: block;     
+        text-align: center;   
+    }
+
+    .sqaf-details-tabs table tbody tr td {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sqaf-details-tabs table tbody tr {
+        margin-bottom: 20px;
+        display: block;
+        border: 1px solid #004976;
+        background: #f9f9f9;
+        overflow: hidden;
+    }
+
+    .sqaf-details-tabs table tbody td::before {
+        /* content: attr(data-label);
+        font-weight: bold;
+        width: 30%;
+        display: flex;
+        background: #004976;
+        color: #fff; */
+        padding: 15px;
+        margin-inline-end: 10px;
+    }
+
+    table tr .btn-th-width {
+        width: 155px; 
+    }
+    .modal-body table tr th{width: auto;font-size: 13px;}
+    .react-tabs__tab{width: 100%;margin-bottom:8px;}
+    .modal-title{font-size: 14px !important;}
+}

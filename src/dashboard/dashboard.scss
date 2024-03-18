@@ -1,0 +1,320 @@
+.dashboard-activity-page {
+
+    background: #f2f1f7;
+
+    .performance-card {
+        position: relative;
+        z-index: 99;
+        background: #78356c;
+    }
+
+    .advance-search-input {
+        padding: 0px !important;
+    }
+
+    .dashboard-box {
+        height: 290px;
+        background: linear-gradient(0deg, #f6f4f8, #fefdfe);
+        border-radius: 30px 30px 0 0;
+        padding: 80px 50px 30px;
+        margin-top: -40px;
+    }
+
+    .content-box {
+        float: right;
+
+        .main-text-c.m-big {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            margin-bottom: 0;
+        }
+
+        .sub-text-c {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.1;
+            margin-bottom: 12px;
+            padding-left: 4px;
+        }
+    }
+
+    .first-card-circle {
+        position: relative;
+        height: 650px;
+        overflow: hidden;
+        margin-top: -8%;
+
+        .first-circle-line {
+            height: 1300px;
+            width: 1300px;
+            border-top: 1px solid #747070;
+            border-radius: 100%;
+            position: absolute;
+            top: 10%;
+        }
+
+        .card-box1 {
+            width: 160px;
+            height: 160px;
+            background: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 43%;
+            top: 0%;
+            padding: 10px;
+
+            .padding-box {
+                padding: 10px 10px;
+            }
+
+            .text-card {
+                font-size: 33px;
+                font-weight: 600;
+            }
+
+            .icon-circle img {
+                width: 40px;
+                margin-right: 5px;
+            }
+
+            .card-normal-text {
+                font-size: 12px;
+                margin-top: 5px;
+            }
+
+            .text-card.success {
+                color: #62D669;
+            }
+
+            .text-card.warning {
+                color: #f19e4b;
+            }
+
+            .text-card.danger {
+                color: #f02828;
+            }
+
+            &.card-box2 {
+                top: 14%;
+                left: 18%;
+            }
+
+            &.card-box3 {
+                top: 55%;
+                left: 0;
+            }
+
+            &.card-box4 {
+                top: 14%;
+                left: auto;
+                right: 18%;
+            }
+
+            &.card-box5 {
+                top: 55%;
+                left: auto;
+                right: 0%;
+            }
+
+
+            &.card-box6 {
+                top: 10%;
+                left: 25%;
+            }
+
+            &.card-box7 {
+                top: 40%;
+                left: 13%;
+            }
+
+            &.card-box8 {
+                top: 10%;
+                left: auto;
+                right: 25%;
+            }
+
+            &.card-box9 {
+                top: 40%;
+                left: auto;
+                right: 13%;
+            }
+
+
+
+        }
+
+    }
+
+
+    .second-card-circle {
+        position: relative;
+        height: 550px;
+        overflow: hidden;
+        margin-top: 14%;
+
+        .second-circle-line {
+            height: 1000px;
+            width: 1000px;
+            border-top: 1px solid #747070;
+            border-radius: 100%;
+            position: absolute;
+            top: 14%;
+            left: 11%;
+        }
+    }
+
+
+    .third-card-circle {
+        position: relative;
+        height: 450px;
+        overflow: hidden;
+        margin-top: 14%;
+
+        .third-circle-line {
+            height: 800px;
+            width: 800px;
+            border-top: 1px solid #747070;
+            border-radius: 100%;
+            position: absolute;
+            top: 14%;
+            left: 18%;
+        }
+
+
+        .main-heading-text-circle {
+            height: 450px;
+            width: 450px;
+            border-radius: 100%;
+            position: relative;
+            top: 40%;
+            left: 31%;
+            background: #fff;
+
+            .text-b {
+                text-align: center;
+                padding-top: 30px;
+            }
+        }
+    }
+
+
+    @media (max-width: 1399px) {
+
+        .first-card-circle {
+            margin-top: -10%;
+            height: 500px;
+
+            .first-circle-line {
+                height: 1300px;
+                width: 1110px;
+                overflow: visible;
+            }
+
+            .card-box1 .text-card{font-size: 26px;}
+        }
+
+        .second-card-circle {
+            margin-top: 13%;
+            height: 450px;
+
+            .second-circle-line {
+                height: 1000px;
+                width: 925px;
+                left: 8%;
+                top: 13%;
+            }
+        }
+
+        .third-card-circle {
+            height: 400px;
+            margin-top: 12%;
+
+            .third-circle-line {
+                height: 892px;
+                width: 800px;
+                top: 16%;
+                left: 14%;
+            }
+
+            .main-heading-text-circle {           
+                top: 37%;
+                left: 29.5% !important;    
+                .text-b {
+                    padding-top: 15px;
+
+                    h2{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+
+            .card-box1 {
+                top: 2% !important;
+            }
+
+        }
+
+        .card-box1 {
+            width: 130px !important;
+            height: 130px !important;
+
+           .icon-circle img {
+                width: 28px !important;
+                margin-right: 3px !important;
+            }
+
+          .card-normal-text {
+                font-size: 10px !important;
+                margin-top: 4px !important;
+            }
+          .padding-box {
+                padding: 10px 7px !important;
+            }
+
+            &.card-box2 {
+                top: 15% !important;
+                left: 19% !important;
+            }
+
+            &.card-box3 {
+                left: 2% !important;
+            }
+            &.card-box4 {
+                right:20% !important;
+            }
+            &.card-box5 {
+                right:2% !important;
+            }
+
+        }
+
+    }
+
+    h1.dash-title.heading-lg {
+        font-size: 2rem;
+    }
+
+ .content-box .main-text-c.m-big {
+    font-size: 34px;
+    letter-spacing: 0px;
+}
+
+.content-box .sub-text-c {
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+
+    
+
+}
+
+
+}
+
+.heading-blue.before-d:after{display: none;}

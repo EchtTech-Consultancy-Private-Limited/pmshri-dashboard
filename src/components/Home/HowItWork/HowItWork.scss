@@ -1,0 +1,68 @@
+.howitwork{
+    &-content{
+        padding-top: 5em;
+        @media (max-width: 767px) {
+            padding: 30px 0;
+        }
+        h3 {
+            letter-spacing: 0.1px;
+            color: #131523;
+            font-size: 1.5em;
+            margin: 0;
+            font-weight: 600;
+            @media (max-width: 991px) {
+                font-size: 1.2em;
+            }
+        }
+        
+        p {
+            font-size: 1em;
+            margin: 0;
+            padding: 15px 0;
+            color: #131523;
+            line-height: 1.5;
+            @media (max-width: 991px) {
+                font-size: 0.8em;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .howitwork-img {
+            padding: 0;
+        }
+    }
+}
+
+//Background color for methodology
+.bg{
+    &-daksh{
+        background-color: #00A7FF!important;
+    }
+    &-utkarsh{
+        background-color: #009DFF!important;
+    }
+    &-attiutam{
+        background-color: #8484FF!important;
+    }
+    &-uttam{
+        background-color: #45B059!important;
+    }
+    &-Prachesta_1{
+        background-color:#005900!important;
+    }
+    &-Prachesta_2{
+        background-color:#515100!important;
+    }
+    &-Prachesta_3{
+        background-color:#BA5252!important;
+    }
+    &-Akanshi_1{
+        background-color:#EE5757!important;
+    }
+    &-Akanshi_2{
+        background-color:#EE5757!important;
+    }
+    &-Akanshi_3{
+        background-color:#FF5656!important;
+    }
+}

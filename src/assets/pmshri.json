@@ -1,0 +1,1284 @@
+[
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 74,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 22,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 23,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 78,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 36,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 11,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 10,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 9,
+		"lgd_state_id" : 2,
+		"s_name" : "HIMACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 12,
+		"lgd_state_id" : 2,
+		"s_name" : "HIMACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 4,
+		"lgd_state_id" : 3,
+		"s_name" : "PUNJAB"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 218,
+		"lgd_state_id" : 3,
+		"s_name" : "PUNJAB"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 19,
+		"lgd_state_id" : 3,
+		"s_name" : "PUNJAB"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 36,
+		"lgd_state_id" : 3,
+		"s_name" : "PUNJAB"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 16,
+		"lgd_state_id" : 3,
+		"s_name" : "PUNJAB"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 4,
+		"s_name" : "CHANDIGARH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 3,
+		"lgd_state_id" : 4,
+		"s_name" : "CHANDIGARH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 4,
+		"s_name" : "CHANDIGARH"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 29,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 101,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 11,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 23,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 13,
+		"lgd_state_id" : 5,
+		"s_name" : "UTTARAKHAND"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 123,
+		"lgd_state_id" : 6,
+		"s_name" : "HARYANA"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 6,
+		"s_name" : "HARYANA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 26,
+		"lgd_state_id" : 6,
+		"s_name" : "HARYANA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 16,
+		"lgd_state_id" : 6,
+		"s_name" : "HARYANA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 35,
+		"lgd_state_id" : 7,
+		"s_name" : "DELHI"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 9,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 47,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 333,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 3,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 10,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 57,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 35,
+		"lgd_state_id" : 8,
+		"s_name" : "RAJASTHAN"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 272,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 570,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 10,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 76,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 81,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 9,
+		"s_name" : "UTTAR PRADESH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 26,
+		"lgd_state_id" : 10,
+		"s_name" : "BIHAR"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 28,
+		"lgd_state_id" : 10,
+		"s_name" : "BIHAR"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 6,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 17,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 6,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 1,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 3,
+		"lgd_state_id" : 11,
+		"s_name" : "SIKKIM"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 5,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 14,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 5,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 11,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 5,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 7,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 6,
+		"lgd_state_id" : 12,
+		"s_name" : "ARUNACHAL PRADESH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 4,
+		"lgd_state_id" : 13,
+		"s_name" : "NAGALAND"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 13,
+		"s_name" : "NAGALAND"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 4,
+		"lgd_state_id" : 13,
+		"s_name" : "NAGALAND"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 1,
+		"lgd_state_id" : 13,
+		"s_name" : "NAGALAND"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 3,
+		"lgd_state_id" : 13,
+		"s_name" : "NAGALAND"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 11,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 10,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 11,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 4,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 18,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 15,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 1,
+		"lgd_state_id" : 14,
+		"s_name" : "MANIPUR"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 21,
+		"lgd_state_id" : 15,
+		"s_name" : "MIZORAM"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 1,
+		"lgd_state_id" : 15,
+		"s_name" : "MIZORAM"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 15,
+		"s_name" : "MIZORAM"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 3,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 5,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 23,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 4,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 22,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 3,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 5,
+		"lgd_state_id" : 16,
+		"s_name" : "TRIPURA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 14,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 6,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 2,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 3,
+		"lgd_state_id" : 17,
+		"s_name" : "MEGHALAYA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 87,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 33,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 17,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 54,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 34,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 41,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 29,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 18,
+		"s_name" : "ASSAM"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 43,
+		"lgd_state_id" : 19,
+		"s_name" : "WEST BENGAL"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 19,
+		"lgd_state_id" : 20,
+		"s_name" : "JHARKHAND"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 20,
+		"lgd_state_id" : 20,
+		"s_name" : "JHARKHAND"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 37,
+		"lgd_state_id" : 21,
+		"s_name" : "ODISHA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 26,
+		"lgd_state_id" : 21,
+		"s_name" : "ODISHA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 190,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 3,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 8,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 10,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 17,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 21,
+		"lgd_state_id" : 22,
+		"s_name" : "CHHATTISGARH"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 14,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 91,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 99,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 96,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 79,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 37,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 71,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 23,
+		"s_name" : "MADHYA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 3,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 233,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 33,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 2,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 3,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 14,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 24,
+		"lgd_state_id" : 24,
+		"s_name" : "GUJARAT"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 148,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 278,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 23,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 3,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 54,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 10,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 41,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 32,
+		"lgd_state_id" : 27,
+		"s_name" : "MAHARASHTRA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 13,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 20,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 39,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 79,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 86,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 425,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 22,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 13,
+		"lgd_state_id" : 28,
+		"s_name" : "ANDHRA PRADESH"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 1,
+		"lgd_state_id" : 29,
+		"s_name" : "KARNATAKA"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 119,
+		"lgd_state_id" : 29,
+		"s_name" : "KARNATAKA"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 9,
+		"lgd_state_id" : 29,
+		"s_name" : "KARNATAKA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 32,
+		"lgd_state_id" : 29,
+		"s_name" : "KARNATAKA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 15,
+		"lgd_state_id" : 29,
+		"s_name" : "KARNATAKA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 1,
+		"lgd_state_id" : 30,
+		"s_name" : "GOA"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 11,
+		"lgd_state_id" : 30,
+		"s_name" : "GOA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 4,
+		"lgd_state_id" : 30,
+		"s_name" : "GOA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 30,
+		"s_name" : "GOA"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 2,
+		"lgd_state_id" : 31,
+		"s_name" : "LAKSHADWEEP"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 2,
+		"lgd_state_id" : 31,
+		"s_name" : "LAKSHADWEEP"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 2,
+		"lgd_state_id" : 31,
+		"s_name" : "LAKSHADWEEP"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 2,
+		"lgd_state_id" : 31,
+		"s_name" : "LAKSHADWEEP"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 1,
+		"lgd_state_id" : 31,
+		"s_name" : "LAKSHADWEEP"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 31,
+		"lgd_state_id" : 32,
+		"s_name" : "KERALA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 24,
+		"lgd_state_id" : 33,
+		"s_name" : "TAMIL NADU"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 7,
+		"lgd_state_id" : 34,
+		"s_name" : "PUDUCHERRY"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 34,
+		"s_name" : "PUDUCHERRY"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 2,
+		"lgd_state_id" : 34,
+		"s_name" : "PUDUCHERRY"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 34,
+		"s_name" : "PUDUCHERRY"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 1,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 1,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 4,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 3,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 2,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 35,
+		"s_name" : "ANDAMAN AND NICOBAR ISLANDS"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 38,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 18,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 3,
+		"c_name" : "Higher Secondary(1-12)",
+		"total_school" : 64,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 99,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 20,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 304,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 22,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 1,
+		"lgd_state_id" : 36,
+		"s_name" : "TELANGANA"
+	},
+	{
+		"pmshri_category_id" : 5,
+		"c_name" : "Higher Secondary(6-12)",
+		"total_school" : 1,
+		"lgd_state_id" : 37,
+		"s_name" : "LADAKH"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 11,
+		"lgd_state_id" : 37,
+		"s_name" : "LADAKH"
+	},
+	{
+		"pmshri_category_id" : 7,
+		"c_name" : "Secondary\/Sr. Sec.(6-10)",
+		"total_school" : 2,
+		"lgd_state_id" : 37,
+		"s_name" : "LADAKH"
+	},
+	{
+		"pmshri_category_id" : 12,
+		"c_name" : "KVS",
+		"total_school" : 2,
+		"lgd_state_id" : 37,
+		"s_name" : "LADAKH"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 37,
+		"s_name" : "LADAKH"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 1,
+		"lgd_state_id" : 38,
+		"s_name" : "DADRA & NAGAR HAVELI & DAMAN & DIU"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 4,
+		"lgd_state_id" : 38,
+		"s_name" : "DADRA & NAGAR HAVELI & DAMAN & DIU"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 38,
+		"s_name" : "DADRA & NAGAR HAVELI & DAMAN & DIU"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 38,
+		"s_name" : "DADRA & NAGAR HAVELI & DAMAN & DIU"
+	},
+
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 1,
+		"lgd_state_id" : 38,
+		"s_name" : "daman and diu"
+	},
+	{
+		"pmshri_category_id" : 2,
+		"c_name" : "Upper Primary Only(1-8)",
+		"total_school" : 4,
+		"lgd_state_id" : 38,
+		"s_name" : "daman and diu"
+	},
+	{
+		"pmshri_category_id" : 6,
+		"c_name" : "Secondary\/Sr. Sec.(1-10)",
+		"total_school" : 1,
+		"lgd_state_id" : 38,
+		"s_name" : "daman and diu"
+	},
+	{
+		"pmshri_category_id" : 13,
+		"c_name" : "NVS",
+		"total_school" : 2,
+		"lgd_state_id" : 38,
+		"s_name" : "daman and diu"
+	}
+]

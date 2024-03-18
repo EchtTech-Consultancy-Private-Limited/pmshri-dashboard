@@ -1,0 +1,35 @@
+.login {
+  background-image: url("../../assets/images/banner-bg.svg");
+  background-color: #D7DBEC;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.login-heading {
+  letter-spacing: 0.14px;
+  color: #131523;
+  font-size: 1.375em;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.login-form {
+  background: #fff;
+  border-radius: 6px;
+  padding: 30px;
+  box-shadow: 0px 1px 4px rgba(21, 34, 50, 0.0784313725);
+}
+.login-form .form-label {
+  letter-spacing: 0.1px;
+  color: #5A607F;
+  font-weight: 500;
+  font-size: 0.875em;
+}
+.login-form input:focus {
+  outline: none;
+  box-shadow: none;
+}/*# sourceMappingURL=Login.css.map */

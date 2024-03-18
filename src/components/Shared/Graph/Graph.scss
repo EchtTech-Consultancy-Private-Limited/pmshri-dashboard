@@ -1,0 +1,133 @@
+.graph-wrap {
+    .highcharts-yaxis-labels,
+    .highcharts-xaxis-labels{
+        text{
+            font-size: 0.75em;
+            letter-spacing: 0px;
+            color: #7E84A3 !important;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .highcharts-legend{
+        transform: translate(-10px, 10px);
+    }
+    .highcharts-credits {
+        display: none;
+    }
+    .highcharts-tooltip{
+      span {
+        font-family: 'Poppins', sans-serif !important;
+      }
+    }
+    .highcharts-container{
+      width: 100%;
+    }
+    .tooltipMainWrapper {
+        display: block;
+        min-width: 260px;
+        .tooltipHeader{
+          color: #D94148;
+          font-weight: 500;
+          padding: 10px;
+          font-size: 13px;
+          display: block;
+          border-bottom: 1px solid #dddddd;
+          width: 100%;
+        }
+        .tooltipPointContent{
+          padding: 10px;
+          border-bottom: 1px solid #dddddd;
+        }
+        .tooltipPointWrapper {
+          // display: block;
+          margin: 0;
+          span{
+            padding: 0 10px 0 30px;
+            display: block;
+          }
+        }
+        .tooltipPoint {
+          font-size: 12px;
+          letter-spacing: 0px;
+          color: #131523;
+          font-weight: 600;
+          position: relative;
+        }
+        .tooltipLine {
+          display: block;
+          opacity: 1;
+          background-color: #dddddd;
+          width: 100%;
+          height: 1px;
+          padding: 0px !important;
+          margin: 10px 0;
+        }
+        .tooltiono{
+          font-size: 12px;
+          color: #7E84A3;
+        }
+        .tooltipPointIcon {
+          position: absolute;
+          left: 15px;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          // border: 2px solid #fff;
+          border-radius: 50%;
+          width: 8px;
+          height: 8px;
+          display: block;
+          &.darkblue{
+            background: #0000FF;
+          }
+          &.blue{
+            background: #5050FF;
+          }
+          &.lightblue{
+            background: #7D7DFF;
+          }
+          &.darkgreen{
+            background: #009632;
+          }
+          &.lightgreen{
+            background: #96FF96;
+          }
+          &.yellow{
+            background: #FFFF00;
+          }
+          &.orange{
+            background: #FFC800;
+          }
+          &.lightpink{
+            background: #FA9696;
+          }
+          &.pink{
+            background: #FA6464;
+          }
+          &.red{
+            background: #FA4B4B;
+          }
+        }
+    }
+      
+    .statetooltipWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 6px;
+      padding: 15px 0;
+      .statetooltipPoint{
+        font-size: 1em;
+        letter-spacing: 0.09px;
+        color: #5A607F;
+        font-weight: 400;
+        margin: 0 15px;
+        span {
+          padding: 0;
+          letter-spacing: 0.07px;
+          color: #131523;
+          font-size: 1.2em;
+          font-weight: 500;
+      }
+    }
+  }
+}

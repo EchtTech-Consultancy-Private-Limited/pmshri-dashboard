@@ -1,0 +1,44 @@
+@import 'src/styles/_variables.scss'; 
+
+.btn {
+    padding: 10px 15px;
+    letter-spacing: 0.12px;
+    font-size: 0.938em;
+    font-weight: 500;
+    border-radius: 4px;
+}   
+
+.red-bdr-btn {
+    color: $red;
+    border: 1px solid;
+    &:hover{
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.blue-bdr-btn {
+    color: $blue;
+    border: 1px solid;
+}
+
+.red-solid-btn{
+    background-color: $red;
+    color: $white;
+    border: 1px solid $red;
+    &:hover{
+        background-color: #383876;
+        color: $white;
+        border: 1px solid #383876;
+    }
+}
+.blue-solid-btn{
+    background-color: #383876;
+    color: #ffffff;
+    border: 1px solid #383876;
+    &:hover{
+        background-color: $red;
+        color: $white;
+        border: 1px solid $red;
+    }
+}

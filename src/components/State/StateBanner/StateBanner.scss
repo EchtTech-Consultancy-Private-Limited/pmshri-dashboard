@@ -1,0 +1,193 @@
+.state-card {
+
+    // box-shadow: 0px 1px 4px #15223214;
+    // border-radius: 6px;
+    // background: #fff;
+    &-top {
+        padding: 15px;
+        box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.2);
+        border-radius: 10px;
+        background: #fff;
+        // border-bottom: 1px dashed #959595;
+    }
+
+    &-title {
+        letter-spacing: 0px;
+        color: #5A607F;
+        font-size: 1em;
+        font-weight: 400;
+        margin: 0;
+        line-height: 2;
+    }
+
+    &-name {
+        letter-spacing: 0.07px;
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    &-list {
+        padding: 10px 0;
+
+        ul {
+            padding: 0;
+            list-style: none;
+
+            // display: flex;
+            // justify-content: space-between;
+            // margin: 0;
+            li {
+                p {
+                    font-weight: 500;
+                    letter-spacing: 0.07px;
+                    color: #131523;
+                    margin: 0;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+
+.state-colorcard {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+
+    h2 {
+        letter-spacing: 0px;
+        font-size: 0.875em;
+        font-weight: 400;
+        padding: 10px 5px;
+        text-align: center;
+        border-radius: 4px 4px 0 0;
+        margin: 0;
+    }
+
+    p {
+        letter-spacing: 0px;
+        color: #131523;
+        font-size: 0.75em;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px
+    }
+
+    .card-daksh,
+    .card-utkarsh,
+    .card-ati-uttam,
+    .card-uttam,
+    .card-prachesta-1,
+    .card-prachesta-2,
+    .card-prachesta-3,
+    .card-akanshi-1,
+    .card-akanshi-2,
+    .card-akanshi-3 {
+        border-radius: 4px 4px 0 0;
+    }
+}
+
+.color-striped .card-utkarsh {
+    background: rgb(187, 61, 165);
+    background: linear-gradient(180deg, rgba(187, 61, 165, 1) 7%, rgba(92, 15, 78, 1) 64%) !important;
+    color: #fff;
+}
+
+
+.color-striped .card-ati-uttam {
+    background: #7D7DFF;
+    color: #fff;
+}
+
+.color-striped .card-uttam {
+    // background: #009632;
+    background: linear-gradient(175deg, rgba(0, 150, 50, 1) 0%, rgba(120, 53, 108, 1) 100%) !important;
+    color: #fff;
+}
+
+.color-striped .card-prachesta-1 {
+    background: #96FF96;
+    color: #131523;
+}
+
+.color-striped .card-prachesta-2 {
+    background: #FFFF00;
+    color: #131523;
+}
+
+.color-striped .card-daksh {
+
+    background: rgb(254, 71, 38);
+    background: linear-gradient(234deg, rgb(254, 71, 38) 7%, rgb(92, 15, 78) 64%) !important;
+    color: #fff;
+}
+
+.state-card-list {
+    .rounded-card-animation {
+        padding: 12px;
+        border-bottom-right-radius: 80px;
+        transition: .3s;
+
+    }
+
+    :hover {
+        border-bottom-right-radius: 0px !important;
+
+    }
+
+    .grade {
+        padding: 15px 0;
+    }
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.state-d-card {
+
+    margin: 0 !important;
+    width: 100%;
+
+    .small-card-s {
+        padding: 0px 5px;
+    }
+
+    .category-card-wrap {
+        margin: 6px 0px 10px !important;
+    }
+}
+
+
+.state-card-top.card-details {
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-height: 95px;
+
+    &.active-school-type{
+        border: 1px solid #97d197;
+    }
+    img {
+        width: 35px;
+        height: 35px;
+        margin-right: 0px;
+    }
+
+    .state-card-name {
+        font-size: 1.2em;
+    }
+    .state-card-title{
+        font-size: .8em;
+    }
+}
+
+.state-card-list.districtcard-list .col:not(:last-child) {
+    padding-right: 0px;
+}
