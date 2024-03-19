@@ -13,94 +13,48 @@ import internet from 'src/assets/images/internet-d.svg';
 import { Link } from 'react-router-dom';
 
 
-export default function Dashboard() {
+export default function Dashboard(props: any) {
+
+    const { states, districtlist, blocklist } = props
+
     return (
         <>
-            <section className="banner-wrap banner-bg banner-state ptb-30 d-flex align-items-center" style={{ height: "160px" }}>
-                <div className="container">
-                    <div className="row" >
-                        <div className="col-md-12">
-                            <h2 className="heading-blue text-center before-d text-white pb-0">Dashboard</h2>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="dashboard-activity-page ptb-60 pb-0">
-
-                <div className="container">
-
+            <section className="banner-wrap banner-bg banner-state ptb-30">
+                <div className="container p-0">
                     <div className="row">
-                        <div className="col-md-12">
-                            <div className="readMorehome">
-                                <Link to="/state" className='btn'>School List <span className="material-icons-round">
-                                    read_more
-                                </span>
-                                </Link>
-
-                            </div>
-                        </div>
-                        <div className="col-md-7 mx-auto">
-                            <div className="performance-card mtb-20 p-3">
+                        <div className="col-md-8 mx-auto">
+                            <div className="performance-card padding mtb-20">
                                 <div className="advance-search-container">
+
                                     <div className="row">
                                         <div className="col-md-4">
                                             <div className="advance-search-input">
                                                 <select name="state" id="state">
-                                                    <option value="Select State">Select State</option>
-                                                    <option value="0">ALL STATES</option>
-                                                    <option value="35">Andaman And Nicobar Islands</option>
-                                                    <option value="28">Andhra Pradesh</option>
-                                                    <option value="12">Arunachal Pradesh</option>
-                                                    <option value="18">Assam</option>
-                                                    <option value="10">Bihar</option>
-                                                    <option value="4">Chandigarh</option>
-                                                    <option value="22">Chhattisgarh</option>
-                                                    <option value="38">Dadra &amp; Nagar Haveli  &amp; Daman &amp; Diu</option>
-                                                    <option value="7">Delhi</option>
-                                                    <option value="30">Goa</option>
-                                                    <option value="24">Gujarat</option>
-                                                    <option value="6">Haryana</option>
-                                                    <option value="2">Himachal Pradesh</option>
-                                                    <option value="1">Jammu And Kashmir</option>
-                                                    <option value="20">Jharkhand</option>
-                                                    <option value="29">Karnataka</option>
-                                                    <option value="175">Kendriya Vidyalaya Sangathan</option>
-                                                    <option value="32">Kerala</option>
-                                                    <option value="37">Ladakh</option>
-                                                    <option value="31">Lakshadweep</option>
-                                                    <option value="23">Madhya Pradesh</option>
-                                                    <option value="27">Maharashtra</option>
-                                                    <option value="14">Manipur</option>
-                                                    <option value="17">Meghalaya</option>
-                                                    <option value="15">Mizoram</option>
-                                                    <option value="13">Nagaland</option>
-                                                    <option value="176">Navodaya Vidyalayas Samiti</option>
-                                                    <option value="21">Odisha</option>
-                                                    <option value="34">Puducherry</option>
-                                                    <option value="3">Punjab</option>
-                                                    <option value="8">Rajasthan</option>
-                                                    <option value="11">Sikkim</option>
-                                                    <option value="33">Tamil Nadu</option>
-                                                    <option value="36">Telangana</option>
-                                                    <option value="200">Test State</option>
-                                                    <option value="16">Tripura</option>
-                                                    <option value="5">Uttarakhand</option>
-                                                    <option value="9">Uttar Pradesh</option>
-                                                    <option value="19">West Bengal</option>
+                                                    <option value="Select State" selected>Select State</option>
+                                                    {states?.length && states.map((stateName: any, index: number) => {
+                                                        return <option key={index} value={stateName.state_name.toLowerCase()}>{stateName.state_name}</option>
+                                                    })}
                                                 </select>
                                             </div>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="advance-search-input">
                                                 <select name="district" id="district">
-                                                    <option value="0">Select District</option>
+                                                    <option value="Select District" selected>Select District</option>
+                                                    {districtlist?.length && districtlist.map((districtName: any, index: number) => {
+                                                        return <option key={index} value={districtName.name.toLowerCase()}>{districtName.name}</option>
+                                                    })}
                                                 </select>
                                             </div>
                                         </div>
+
                                         <div className="col-md-4">
                                             <div className="advance-search-input">
                                                 <select name="district" id="block">
-                                                    <option value="0">Select Block</option>
+                                                    <option value="Select block">Select Block</option>
+                                                    {blocklist?.length && blocklist.map((blockName: any, index: number) => {
+                                                        return <option key={index} value={blockName.name.toLowerCase()}>{blockName.name}</option>
+                                                    })}
                                                 </select>
                                             </div>
                                         </div>
@@ -109,18 +63,33 @@ export default function Dashboard() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
 
+            <section className="dashboard-activity-page ptb-60 pb-0">
+
+                <div className="container">
+
+                    <div className="row">
+                        <div className="col-md-12">                           
+                            <div className="readMorehome mb-4">
+                                <Link to="/state" className="btn">School List <span className="material-icons-round">read_more</span></Link>
+
+                            </div>
+                        </div>
+                       
                         <div className="col-md-12">
                             <div className="dashboard-box">
 
                                 <div className="row">
-                                    <div className="col-md-4 pr-0">
+                                    <div className="col-md-6 pr-0">
                                         <h1 className='dash-title heading-lg'>
                                             Welcome to PMShri Dashboard
                                         </h1>
                                     </div>
 
-                                    <div className="col-md-8 p-0">
+                                    <div className="col-md-6 p-0">
                                         <div className="row col-sm-flex">
                                             <div className="col-md-4">
                                                 <div className="content-box">

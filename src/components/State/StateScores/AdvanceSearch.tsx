@@ -11,7 +11,7 @@ const AdvanceSearch = (props: any) => {
                     <div className="advance-search-container">
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="advance-search ">
+                                <div className="advance-search">
                                     <h2 className="heading-sm"> PM SHRI Schools Search </h2>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const AdvanceSearch = (props: any) => {
                             </div>
                             <div className="col-md-3">
                                 <div className="advance-search-button">
-                                    <a className="btn blue-solid-btn s-btn know-more">dSearch</a>
+                                    <a className="btn blue-solid-btn s-btn know-more">Search</a>
                                 </div>
                                 <div className="advance-search-button reset ms-3">
                                     <a href="#" ><div className="btn-wrap"><div className="btn red-bdr-btn">Reset</div></div></a>
