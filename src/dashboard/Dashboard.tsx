@@ -121,7 +121,7 @@ export default function Dashboard() {
                                     </div>
 
                                     <div className="col-md-8 p-0">
-                                        <div className="row">
+                                        <div className="row col-sm-flex">
                                             <div className="col-md-4">
                                                 <div className="content-box">
                                                     <div className="main-text-c m-big">6400</div>
@@ -147,7 +147,7 @@ export default function Dashboard() {
                             </div>
                         </div>
 
-                        <div className="col-md-12">
+                        <div className="col-md-12 p-s-0">
                             <div className="first-card-circle">
                                 <div className="first-circle-line"></div>
                                 <div className="card-box1">

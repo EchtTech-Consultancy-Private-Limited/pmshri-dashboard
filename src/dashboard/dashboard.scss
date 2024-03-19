@@ -327,8 +327,124 @@
         font-size: 14px;
     }
 
-    @media (max-width: 767px) {}
+    @media (max-width: 767px) {
+        .first-card-circle .card-box1 .text-card {
+            font-size: 20px;
+        }
+        .advance-search-container .col-md-4:not(:last-child) {
+            margin-bottom: 12px;
+        }
 
+        .dashboard-box {
+            height: auto;
+            padding: 70px 20px 30px;
+        }
+
+        h1.dash-title.heading-lg {
+            font-size: 1.6rem;
+        }
+
+        .col-sm-flex .col-md-4 {
+            width: 33.33%;
+        }
+
+        .content-box {
+
+            float: left;
+            padding-left: 10px;
+
+            .main-text-c.m-big {
+                font-size: 22px;
+                margin-top: 10px;
+            }
+
+            .sub-text-c {
+                font-size: 10px;
+                margin-top: 3px;
+            }
+        }
+
+
+        .first-card-circle {
+            margin-top: 0px !important;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            .first-circle-line,
+            .second-circle-line,
+            .third-circle-line {
+                display: none;
+            }
+
+            .card-box1 {
+                position: static !important;
+                margin: 10px 0px 5px 9px;
+                width: 30.33% !important;
+                height: 125px !important;
+            }
+
+            .second-card-circle {
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 0;
+
+                .card-box1 {
+                    position: static !important;
+                    margin: 10px 0px 5px 9px;
+                    width: 30.33% !important;
+                    height: 125px !important;
+                }
+            }
+
+            .third-card-circle {
+                height: auto;
+                margin-top: 0;
+                margin-bottom: 30px;
+
+                .card-box1 {
+                    position: static !important;
+                    margin: 10px 0px 5px 9px;
+                    width: 75% !important;
+                    height: 125px !important;
+                }
+
+
+                .main-heading-text-circle {
+                    position: static !important;
+                    margin-bottom: -100%;
+                    margin-left: -13%;
+                    display: none;
+
+                    .text-b {
+                        padding-top: 20px;
+                    }
+                }
+
+            }
+        }
+
+      .card-box1 .padding-box {
+            padding: 10px 5px !important;
+        }
+        .p-s-0 {
+            padding: 0px !important;
+        }
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .banner-wrap.banner-bg.banner-state {
+        height: 90px !important;
+
+        .heading-blue {
+            margin-bottom: 0;
+        }
+    }
 
 }
 
