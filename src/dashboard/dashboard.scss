@@ -1,5 +1,4 @@
-
-.performance-card.padding{
+.performance-card.padding {
     padding: 11px 20px 0;
 }
 
@@ -214,9 +213,10 @@
         float: right;
         border: 1px solid #78356c;
 
-        a{
-            padding: 6px 15px;  
+        a {
+            padding: 6px 15px;
         }
+
         &:hover {
             background: #fff;
         }
@@ -332,15 +332,16 @@
     }
 
     .content-box .sub-text-c {
-        font-size: 14px;    
+        font-size: 14px;
     }
 
-    
+
 
     @media (max-width: 767px) {
         .first-card-circle .card-box1 .text-card {
             font-size: 20px;
         }
+
         .advance-search-container .col-md-4:not(:last-child) {
             margin-bottom: 12px;
         }
@@ -435,9 +436,10 @@
             }
         }
 
-      .card-box1 .padding-box {
+        .card-box1 .padding-box {
             padding: 10px 5px !important;
         }
+
         .p-s-0 {
             padding: 0px !important;
         }
@@ -447,14 +449,88 @@
 
     @media (max-width: 1199px) and (min-width:768px) {
 
-        .first-card-circle{
-
-            .second-card-circle{
-                display: none !important;
-            }
+        h1.dash-title.heading-lg {
+            font-size: 1.7rem;
         }
 
-        
+        .first-card-circle {
+            .first-circle-line {
+                width: 730px;
+                height: 1000px;
+                top: 7%;
+            }
+
+            .second-card-circle {
+                margin-top: 16%;
+                height: 450px;
+
+                .second-circle-line {
+                    height: 800px;
+                    width: 575px;
+                    left: 11%;
+                    top: 10%;
+                }
+                .third-card-circle{
+                    .third-circle-line {
+                        height: 760px;
+                        width: 540px;
+                        top: 22%;
+                        left: 14%;
+                    } 
+                 .card-box1 {
+                        top: 10% !important;
+                    }   
+                    
+                    .main-heading-text-circle{top: 45%;left: 20% !important;
+                    
+                        .text-b{padding-top: 35px;}
+                    }
+                }           
+            }
+
+            .card-box1 {
+                width: 100px !important;
+                height: 100px !important;
+
+                &.card-box2 {
+                    top: 15% !important;
+                    left: 13% !important;
+                }
+
+                &.card-box3 {
+                    top: 50% !important;
+                    left: 0% !important;
+                }
+
+                &.card-box4 {
+                    top: 15% !important;
+                    right: 13% !important;
+                }
+
+                &.card-box5 {
+                    top: 50% !important;
+                    right: 0% !important;
+                }
+
+                .card-normal-text {
+                    font-size: 8px !important;
+                    margin-top: 4px !important;
+                }
+
+                .text-card {
+                    font-size: 20px;
+                }
+
+                .icon-circle img {
+                    width: 20px !important;
+                }
+
+            }
+
+           
+        }
+
+
 
     }
 

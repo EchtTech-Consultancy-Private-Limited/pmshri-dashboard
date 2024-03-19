@@ -22,7 +22,7 @@ export default function Dashboard(props: any) {
             <section className="banner-wrap banner-bg banner-state ptb-30">
                 <div className="container p-0">
                     <div className="row">
-                        <div className="col-md-8 mx-auto">
+                        <div className="col-md-10 mx-auto">
                             <div className="performance-card padding mtb-20">
                                 <div className="advance-search-container">
 
@@ -83,13 +83,13 @@ export default function Dashboard(props: any) {
                             <div className="dashboard-box">
 
                                 <div className="row">
-                                    <div className="col-md-6 pr-0">
+                                    <div className="col-lg-6 col-md-5 pr-0">
                                         <h1 className='dash-title heading-lg'>
                                             Welcome to PMShri Dashboard
                                         </h1>
                                     </div>
 
-                                    <div className="col-md-6 p-0">
+                                    <div className="col-lg-6 col-md-7 p-0">
                                         <div className="row col-sm-flex">
                                             <div className="col-md-4">
                                                 <div className="content-box">
