@@ -16,10 +16,31 @@ import { Link } from 'react-router-dom';
 export default function Dashboard(props: any) {
 
     const { states, districtlist, blocklist } = props
+    
+    const [visible, setVisible] = useState(false) 
+  
+    const toggleVisible = () => { 
+      const scrolled = document.documentElement.scrollTop; 
+      if (scrolled > 180){ 
+        setVisible(true) 
+      }  
+      else if (scrolled <= 180){ 
+        setVisible(false) 
+      } 
+    }; 
+    
+    const scrollToTop = () =>{ 
+      window.scrollTo({ 
+        top: 0,  
+        behavior: 'smooth'
+      }); 
+    }; 
+    
+    window.addEventListener('scroll', toggleVisible); 
 
     return (
         <>
-            <section className="banner-wrap banner-bg banner-state ptb-30">
+            <section className="banner-wrap banner-bg banner-state ptb-30" id="banner-filter">
                 <div className="container p-0">
                     <div className="row">
                         <div className="col-md-10 mx-auto">
@@ -72,7 +93,10 @@ export default function Dashboard(props: any) {
                 <div className="container">
 
                     <div className="row">
-                        <div className="col-md-12">                           
+                        <div className="col-md-12 p-relative">       
+                           <div className="icon-top-bottom" onClick={scrollToTop} style={{display: visible ? 'flex' : 'none'}} title='Back to Filter'>
+                           <span className="material-icons-round">expand_less</span>
+                            </div>                    
                             <div className="readMorehome mb-4">
                                 <Link to="/state" className="btn">School List <span className="material-icons-round">read_more</span></Link>
 
