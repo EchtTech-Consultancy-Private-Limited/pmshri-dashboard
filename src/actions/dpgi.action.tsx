@@ -144,4 +144,9 @@ export const getStateGallery = (stateID : string) => ({
     type: constants.ALL_STATEGALLERY_FETCH,
     payload: http.get('getgallery/gallerymaster/'+ stateID)
 })
+
+export const getDashboardCardDataFilterWise = (sid: Number, did: Number, bid: Number, page:Number) => ({
+    type: constants.CARD_DASHBOARD_FILTER_DATA_FETCH,
+    payload: http.get('/getdashboarddata/filterdashboarddata?sid='+sid+'&did='+did+'&bid='+bid+'&page='+page)
+})
 /*end here*/

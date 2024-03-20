@@ -83,9 +83,9 @@ const StateComparison = (props: any) => {
     }
   }, [withComparedData, toComparedData]);
 
-  useEffect(() => {
-    dispatch(getComparisonData(withComparedYear, year, state));
-  }, [year, state]);
+  // useEffect(() => {
+  //   dispatch(getComparisonData(withComparedYear, year, state));
+  // }, [year, state]);
 
   const changeYear = (event: EventModel) => {
     setYear(event.target.value);

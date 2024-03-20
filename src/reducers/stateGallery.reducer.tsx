@@ -5,6 +5,7 @@ const initialGalaryList = {
     loading: false,
     loaded: false,
     error: false,
+    status:false,
     data: []
 } as InitialStateModel
 
@@ -12,6 +13,7 @@ const initialGalaryList = {
 export const stateGalleryReducer = function (state = initialGalaryList, action: any) {
 
     const { type, payload } = action
+   
     switch (type) {
         case ALL_STATEGALLERY_FETCH_PENDING: {
             return { ...state, loading: true }
@@ -21,7 +23,8 @@ export const stateGalleryReducer = function (state = initialGalaryList, action: 
                 ...state,
                 loading: false,
                 loaded: true,
-                data: payload.data
+                status:true,
+                data: payload?.data?.data
             }
         }
         case ALL_STATEGALLERY_FETCH_REJECTED: {
@@ -29,6 +32,7 @@ export const stateGalleryReducer = function (state = initialGalaryList, action: 
                 ...state,
                 loading: false,
                 loaded: false,
+                status:false,
                 error: true
             }
         }
@@ -36,3 +40,4 @@ export const stateGalleryReducer = function (state = initialGalaryList, action: 
             return state
     }
 }
+

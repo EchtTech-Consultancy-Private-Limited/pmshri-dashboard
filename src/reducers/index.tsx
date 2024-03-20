@@ -27,6 +27,7 @@ import {getSQAFListReducer} from './sqaf.reducer';
 import {getFaqListReducer} from './faq.reducer';
 import {getSQAFDetailsReducer} from './sqaf.reducer';
 import { stateGalleryReducer } from './stateGallery.reducer';
+import filterWiseDashboardCardDataReducer from './dashboardCardFilterWiseData.reducer';
 
 const reducers = combineReducers({
     mapChartData: mapChartReducer,
@@ -56,7 +57,8 @@ const reducers = combineReducers({
     sqafList:getSQAFListReducer,
     faqsList:getFaqListReducer,
     sqafDetails:getSQAFDetailsReducer,
-    statesGallery:stateGalleryReducer
+    statesGallery:stateGalleryReducer,
+    filterWiseDashboardCardDatas: filterWiseDashboardCardDataReducer,
 
 })
 

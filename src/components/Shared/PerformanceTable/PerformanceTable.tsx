@@ -15,8 +15,8 @@ const PerformanceTable = (props: any) => {
     const [finalData, setFinalData] = useState({}) as any;
     useEffect(() => {
         if (year !== undefined) {
-            dispatch(getAllCategories(year))
-            dispatch(setCategoriesWiseData(year, state, catId))
+            // dispatch(getAllCategories(year))
+            //dispatch(setCategoriesWiseData(year, state, catId))
         }
     }, [year, catId, state])
 
