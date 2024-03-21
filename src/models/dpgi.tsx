@@ -34,6 +34,7 @@ export interface StoreModel {
     sqafDetails: InitialStateModel
     faqsList: InitialStateModel
     statesGallery:InitialStateModel
+    filterWiseDashboardCardDatas:InitialStateModel
 }
 
 export interface ActionModel {
