@@ -1,13 +1,5 @@
 
-// import image1 from 'src/assets/photo-gallery/photo-gallery1.png';
-// import image2 from 'src/assets/photo-gallery/photo-gallery2.png';
-// import image3 from 'src/assets/photo-gallery/photo-gallery3.png';
-// import image4 from 'src/assets/photo-gallery/photo-gallery4.png';
-// import image5 from 'src/assets/photo-gallery/photo-gallery5.png';
-// import image6 from 'src/assets/photo-gallery/photo-gallery6.png';
-// import image7 from 'src/assets/photo-gallery/photo-gallery7.png';
-// import image8 from 'src/assets/photo-gallery/photo-gallery8.png';
-// import image9 from 'src/assets/photo-gallery/photo-gallery9.png';
+
 import { EventModel, InitialStateModel, StoreModel } from 'src/models/dpgi';
 import { getStateGallery } from "src/actions/dpgi.action";
 import '../Home/Gallery/Gallery.scss';
@@ -25,10 +17,12 @@ import ImageModal from './ImageModel';
 const LazyLoading = lazy(() => import('./LazyLoading'));
 const Stategallery = () => {
 
-    const states = useSelector<StoreModel>(store => store.states.data) as []
-    const gallery = useSelector<StoreModel>(store => store.statesGallery.data) as []
-    const galleryloading = useSelector<StoreModel>(store => store.statesGallery.loading) as []
+    const states = useSelector<StoreModel>(store => store?.states?.data) as []
+    const gallery = useSelector<StoreModel>(store => store?.statesGallery?.data) as []
+  
+    const galleryloading = useSelector<StoreModel>(store => store?.statesGallery?.loading) as []
     const [StateID, setStateWiseData] = useState(localStorage.getItem('activeStateID') || '0')
+
     const [isOpen, setOpen] = useState(false);
     const [imgUrl, setImgUrl] = useState("");
     const [stateGalleryData, setStateGalleryData] = useState<any[]>([]);
@@ -40,8 +34,12 @@ const Stategallery = () => {
 
     const dispatch = useDispatch();
     useEffect(() => {
+       if(StateID){
         dispatch(getStateGallery(StateID));
         setCurrentPage(1);
+       }else{
+        console.log("state id not exist")
+       }
     }, [StateID]);
 
     useEffect(() => {
@@ -49,21 +47,23 @@ const Stategallery = () => {
         setStateGalleryData(gallery);
     }, [gallery]);
 
-
     useEffect(() => {
-        if (StateID && stateGalleryData.length > 0) {
-            const filteredState = stateGalleryData.filter(item => item.StateID == StateID);
+        if (StateID && stateGalleryData?.length > 0) {
+           
+            const filteredState = stateGalleryData.filter(item => item?.StateID == StateID);
             setSelectedState(filteredState);
             setCurrentPage(1);
         }
+        else{
+            console.log("data not found")
+        }
     }, [StateID, stateGalleryData]);
 
-
-    const totalPages = Math.ceil(stateGalleryData.length / itemsPerPage);
+    const totalPages = Math.ceil(stateGalleryData?.length / itemsPerPage);
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    const currentItems = stateGalleryData.slice(indexOfFirstItem, indexOfLastItem);
-    console.log("currentItems", currentItems)
+    const currentItems = stateGalleryData?.slice(indexOfFirstItem, indexOfLastItem);
+    
     const handlePageChange = (pageNumber: number) => {
         setCurrentPage(pageNumber);
     };

@@ -153,9 +153,9 @@ const StateScores = (props: StateScoresModel) => {
     localStorage.setItem("activeState", JSON.stringify(state));
   }, []);
 
-  useEffect(() => {
-    dispatch(getStateWiseCategoryData(year, state));
-  }, [year, state]);
+  // useEffect(() => {
+  //   dispatch(getStateWiseCategoryData(year, state));
+  // }, [year, state]);
 
   useEffect(() => {
     if (!categoryData.loading && categoryData.loaded) {
