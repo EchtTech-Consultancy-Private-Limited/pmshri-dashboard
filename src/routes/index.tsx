@@ -62,8 +62,9 @@ export const routes = (
             <Route path="/hyperlink-policy" element={<Hyperlinkpolicy/>} />
             <Route path="/disclaimer" element={<Disclaimer/>} />
             <Route path="/dashboard" element={<Dashboard/>} />
-            {/* <Route path="/gis" element={<Gis/>} /> */}
+            {/* <Route path="/gis" element={<Gis/>} /> */}  
             <Route path="/*" element={<Navigate to="/" />} />
+            
         </Routes>
         <Footer />
     </Provider >

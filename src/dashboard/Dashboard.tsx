@@ -11,8 +11,6 @@ import playground from 'src/assets/images/playground-d.svg';
 import computer from 'src/assets/images/computer-d.svg';
 import internet from 'src/assets/images/internet-d.svg';
 import { Link } from 'react-router-dom';
-
-
 export default function Dashboard(props: any) {
 
     const { states, districtlist, blocklist } = props
