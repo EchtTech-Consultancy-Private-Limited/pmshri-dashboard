@@ -51,7 +51,7 @@ export default function Dashboard() {
       (store) => store?.filterWiseDashboardCardDatas?.data
     ) as InitialStateModel;
 const dashboarddata=filterWiseDashboardCardDetail?.data
-  console.log(filterWiseDashboardCardDetail,"filterWiseDashboardCardDetail")
+  
     const isLoadingStateData = useSelector<StoreModel>(
       (store) => store.filterWiseDashboardCardDatas.loading
     ) as InitialStateModel;
