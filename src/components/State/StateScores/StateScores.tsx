@@ -353,7 +353,7 @@ const StateScores = (props: StateScoresModel) => {
                     </a>
                   </div>
                   <div className="advance-search-button reset ms-3">
-                    <a href="#" id="school_search_btn" onClick={handleReset}>
+                    <a  id="school_search_btn" onClick={handleReset}>
                       <div className="btn-wrap">
                         <div className="btn red-bdr-btn">Reset</div>
                       </div>
