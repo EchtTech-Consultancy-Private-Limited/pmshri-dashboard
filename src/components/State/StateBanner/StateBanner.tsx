@@ -48,7 +48,7 @@ const StateBanner = (props: StateBannerModel) => {
       'Prachesta-1': 0,
 
     })
-    dispatch(getStateColorCodeData(year, state))
+    // dispatch(getStateColorCodeData(year, state))
   }, [year, state])
 
   useEffect(() => {
