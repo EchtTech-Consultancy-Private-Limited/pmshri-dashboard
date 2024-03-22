@@ -17,6 +17,7 @@ export default function Dashboard(props: any) {
     
     const [visible, setVisible] = useState(false) 
   
+    
     const toggleVisible = () => { 
       const scrolled = document.documentElement.scrollTop; 
       if (scrolled > 180){ 
