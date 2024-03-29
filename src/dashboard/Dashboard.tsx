@@ -11,7 +11,7 @@ import playground from "src/assets/images/playground-d.svg";
 import computer from "src/assets/images/computer-d.svg";
 import internet from "src/assets/images/internet-d.svg";
 import { Link } from "react-router-dom";
-
+import { Spinner } from "react-bootstrap";
 import ScoresTab from "src/components/State/ScoresTab/ScoresTab";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -29,6 +29,8 @@ import {
   StateScoresModel,
   StoreModel,
 } from "src/models/dpgi";
+import LazyLoading from "src/components/Innergallery/LazyLoading";
+import ContentBox from "./ContentBox";
 // import StateComparison from "./StateComaprison";
 // import StateBanner from "src/components/State/StateBanner/StateBanner";
 
@@ -55,6 +57,7 @@ export default function Dashboard() {
   const isLoadingStateData = useSelector<StoreModel>(
     (store) => store.filterWiseDashboardCardDatas.loading
   ) as InitialStateModel;
+  console.log(isLoadingStateData, "isLoadingStateData");
   const blocklist = useSelector<StoreModel>(
     (store) => store.blockData.data
   ) as [];
@@ -373,7 +376,6 @@ export default function Dashboard() {
                 </Link>
               </div>
             </div>
-          
 
             <div className="col-md-12">
               <div className="dashboard-box">
@@ -387,28 +389,30 @@ export default function Dashboard() {
                   <div className="col-md-6 p-0">
                     <div className="row">
                       <div className="col-md-4">
-                        <div className="content-box">
-                          <div className="main-text-c m-big">
-                            {dashboarddata?.totalschool}
-                          </div>
-                          <div className="sub-text-c">Total Schools</div>
-                        </div>
+                       
+                          <ContentBox
+                            isLoading={isLoadingStateData}
+                            value={dashboarddata?.totalschool}
+                            text="Total Schools"
+                          />
+                        
+                        
                       </div>
                       <div className="col-md-4">
-                        <div className="content-box">
-                          <div className="main-text-c m-big">
-                            {dashboarddata?.totalTeachers}
-                          </div>
-                          <div className="sub-text-c">Total Teachers</div>
-                        </div>
+                      
+                          <ContentBox
+                            isLoading={isLoadingStateData}
+                            value={dashboarddata?.totalTeachers}
+                            text="Total Teachers"
+                          />
+                      
                       </div>
                       <div className="col-md-4">
-                        <div className="content-box">
-                          <div className="main-text-c m-big">
-                            {dashboarddata?.totalStudents}
-                          </div>
-                          <div className="sub-text-c">Total Students</div>
-                        </div>
+                        <ContentBox
+                          isLoading={isLoadingStateData}
+                          value={dashboarddata?.totalStudents}
+                          text="Total Students"
+                        />
                       </div>
                     </div>
                   </div>
