@@ -86,8 +86,8 @@ export default function Dashboard() {
   const [blockName, setBlockName] = useState("");
   const [perPage, setPerPage] = useState<number>(5);
   const [schoolType, setSchoolType] = useState<string>("pmshri_school");
-  let activeDistrictName = localStorage.getItem("activeDistrictName");
-  const [currentStateName, setCurrentStateName] = useState(activeDistrictName);
+  let activeDistrictNames = localStorage.getItem("activeDistrictNames");
+  const [currentStateNames, setCurrentStateNames] = useState(activeDistrictNames);
   const changeYear = (year: string) => {
     setYear(year);
   };
@@ -119,12 +119,7 @@ export default function Dashboard() {
     handleSchoolType(schoolType);
   }, [sid, did, bid, page]);
 
-  useEffect(() => {
-    const getDataSchoolList = setTimeout(() => {
-      handleSchoolType(schoolType);
-    }, 300);
-    return () => clearTimeout(getDataSchoolList);
-  }, [search]);
+ 
 
   const handleSchoolType = (school_type: string) => {
     dispatch(
@@ -183,7 +178,7 @@ export default function Dashboard() {
   }, [year]);
 
   const getDistrict = (state_id: any) => {
-    dispatch(getAllDistrict(state_id));
+     dispatch(getAllDistrict(state_id));
   };
   const getBlocks = (district_id: any) => {
     dispatch(getBlockData(district_id));
@@ -196,7 +191,7 @@ export default function Dashboard() {
     setBid(0);
     setDistrictName("");
     setBlockName("");
-    setCurrentStateName(event.nativeEvent.target[index].text);
+    setCurrentStateNames(event.nativeEvent.target[index].text);
     getDistrict(event.target.value);
     dispatch(softRemoveBlockData());
 
@@ -211,7 +206,7 @@ export default function Dashboard() {
     localStorage.setItem("Active_Block_ID", "0");
     localStorage.setItem("activeState", event.target.value);
     localStorage.setItem(
-      "activeDistrictName",
+      "activeDistrictNames",
       event.nativeEvent.target[index].text || ""
     );
   };
@@ -245,16 +240,8 @@ export default function Dashboard() {
 
   // Remove handleClick function
 
-  useEffect(() => {
-    handleSchoolType(schoolType);
-  }, [sid, did, bid, page]);
+ 
 
-  useEffect(() => {
-    const getDataSchoolList = setTimeout(() => {
-      handleSchoolType(schoolType);
-    }, 300);
-    return () => clearTimeout(getDataSchoolList);
-  }, [search]);
 
   const parentSearch = (e: any) => {
     setsearch(e);
