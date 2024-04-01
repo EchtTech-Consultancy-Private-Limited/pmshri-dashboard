@@ -53,23 +53,21 @@ export default function Dashboard() {
     (store) => store?.filterWiseDashboardCardDatas?.data
   ) as InitialStateModel;
   const dashboarddata = filterWiseDashboardCardDetail?.data;
-  console.log(filterWiseDashboardCardDetail, "filterWiseDashboardCardDetail");
   const isLoadingStateData = useSelector<StoreModel>(
     (store) => store.filterWiseDashboardCardDatas.loading
   ) as InitialStateModel;
-  console.log(isLoadingStateData, "isLoadingStateData");
   const blocklist = useSelector<StoreModel>(
     (store) => store.blockData.data
   ) as [];
-  const states = useSelector<StoreModel>((store) => store.states.data) as [];
+  const statess = useSelector<StoreModel>((store) => store.states.data) as [];
   const districtlist = useSelector<StoreModel>(
     (store) => store.districtList.data
   ) as [];
   const [year, setYear] = useState(localStorage.getItem("activeYear") || "-1");
   const [currentPage, setCurrentPage] = useState<number>(1);
-  // const [state, setState] = useState('kerala')
+  
   let state = "0"; //JSON.parse(localStorage.getItem('activeState') || '{}')
-  let activeStatesID = JSON.parse(localStorage.getItem("activeStateID") || "0");
+  let activeStatesID = JSON.parse(localStorage.getItem("activeStatesID") || "0");
   const [scoreTabData, setScoreTabData] = useState({});
   const [stateID, setStateID] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -275,8 +273,8 @@ export default function Dashboard() {
                           <option value="0" selected={true}>
                             ALL STATES
                           </option>
-                          {states?.length &&
-                            states?.map((stateName: any, index: number) => {
+                          {statess?.length &&
+                            statess?.map((stateName: any, index: number) => {
                               return (
                                 <option
                                   selected={
