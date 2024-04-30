@@ -3,14 +3,36 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import highchartsMap from "highcharts/modules/map";
 import totalSchoolDistrict from "../../../assets/pmshri.json";
+
+
 import { DISTRICT_MAPS } from 'src/assets/maps/district_map';
 import { india } from 'src/assets/maps/all-india';
-import { MapModel, MapOptionsModel } from 'src/models/dpgi';
+import { InitialStateModel, MapModel, MapOptionsModel, StoreModel } from 'src/models/dpgi';
+import { useDispatch, useSelector } from 'react-redux';
+import { getallstatedata } from 'src/actions/dpgi.action';
+
 
 highchartsMap(Highcharts);
 
 const Map = (props: MapModel) => {
+    const dispatach=useDispatch()
+    const [apiData, setApiData] = useState<InitialStateModel | null>(null);
+    useEffect(() => {
+        dispatach(getallstatedata());
+    }, [dispatach])
     const { data,year, colorCodeData } = props    
+    
+    const allstatedetails = useSelector<StoreModel>(store => store.allStateData) as InitialStateModel
+   
+    useEffect(() => {
+        
+        if (allstatedetails && Object.keys(allstatedetails).length > 0) {
+            setApiData(allstatedetails);
+        }
+    }, [allstatedetails]);
+        
+    
+    
     // let navigate = useNavigate()
     const [mapMapping, setMapMapping] = useState([
         {id:"highcharts-key-jammu",val:33},
@@ -22,7 +44,7 @@ const Map = (props: MapModel) => {
         {id:"highcharts-key-uttar",val:1},
         {id:"highcharts-key-bihar",val:4},
         {id:"highcharts-key-sikkim",val:35},
-        {id:"highcharts-key-arunachal",val:28},
+        {id:"highcharts-key-arunanchal",val:28},
         {id:"highcharts-key-nagaland",val:3},
         {id:"highcharts-key-manipur",val:27},
         {id:"highcharts-key-mizoram",val:25},
@@ -66,7 +88,7 @@ const Map = (props: MapModel) => {
             }
         }
     }
-
+    
     const [mapOptions, setmapOptions] = useState<MapOptionsModel>({
         chart: {
             // height:"600",
@@ -127,81 +149,65 @@ const Map = (props: MapModel) => {
                         backgroundColor: "#fff",
                         borderWidth: 0,
                         formatter: function (this:any) {
-                         var total_school=0;
-                         let totalUpperPrimaryschool = 0;
-                         let primary_only = 0;
-                         let higher_secondary = 0;
-                         let higher_secondary_6_12 =0;
-                         let higher_secondary_1_10 = 0;
-                         let higher_secondary_6_10 = 0;
-                         let kvs = 0;
-                         let nvs = 0;
-                          totalSchoolDistrict.map((item)=>{
+                         
+                            let total_district_count= 0;
+                            let total_pmshri_school= 0;
+                            let total_primary_school= 0;
+                            let total_blocks= 0;
+                            let total_upper_primary_school= 0;
+                            let total_secondary_school= 0;
+                            let total_high_secondary_school= 0;
+                            let total_kvs= 0;
+                            let total_nvs= 0
+                    if (Array.isArray(apiData?.data)) {
 
-                            // if(["dadra & nagar haveli & daman & diu"].includes(this.point.name.toLowerCase())){
-                            //     console.log(item.s_name.toLowerCase() ,"===", this.point.name.toLowerCase())
-                            //     console.log(item,' items ')
-                            // }
-                            if(item.s_name.toLowerCase() === this.point.name.toLowerCase()){
-                                total_school = total_school+item.total_school;
-                            
-
-                            if([2,4].includes(item.pmshri_category_id)){
-                                totalUpperPrimaryschool=totalUpperPrimaryschool+item.total_school;
-                            }
-                            
-                            if([1].includes(item.pmshri_category_id)){
-                                primary_only = primary_only+item.total_school;
-                            }
-                            if([6,7,8].includes(item.pmshri_category_id)){
-                                higher_secondary_6_12 = higher_secondary_6_12+item.total_school;
-                            }
-                            if([3,5,10,11].includes(item.pmshri_category_id)){
-                                higher_secondary_1_10 = higher_secondary_1_10+item.total_school;
-                            }
-                            
-                            if([12].includes(item.pmshri_category_id)){
-                                kvs = kvs+item.total_school;
-                            }
-                            if([13].includes(item.pmshri_category_id)){
-                                nvs = nvs+item.total_school;
-                            }
-
+                         apiData?.data?.map((item:any)=>{
+                 
+                            if(item.s_name.toLowerCase() == this.point.name.toLowerCase()){
+                                console.log("inside")
+                                total_district_count= item.total_district_count;
+                                total_pmshri_school= item.total_pmshri_school;
+                                total_primary_school= item.total_primary_school;
+                                total_blocks= item.total_blocks;
+                                total_upper_primary_school= item.total_upper_primary_school;
+                                total_secondary_school= item.total_secondary_school;
+                                total_high_secondary_school=item.total_high_secondary_school;
+                                total_kvs=item.total_kvs;
+                                total_nvs= item.total_nvs
                         }
                          })
+                        }
                             if(this !== null){
-                                // if(["dadra & nagar haveli & daman & diu"].includes(this.point.name.toLowerCase())){
-                                //     console.log(this,"==>", this.point.name, "/", this.point._i);
-                                // }
+                               
                                 return `<b>${this.point.name}</b><br/>
                                 <table><thead><tr style='background:#33bbff'><th>Indicator</th><th>Value</th></tr></thead><tbody>
                                 <tr>
                                 <td>PM SHRI Schools:</td>
-                                <td>${total_school}</td>
+                                <td>${total_pmshri_school}</td>
                                 </tr>
                                 <tr>
                                 <td>Primary Schools:</td>
-                                <td>${primary_only}</td>
+                                <td>${total_primary_school}</td>
                                 </tr>
                                 <tr>
                                 <td>Upper Primary Schools:</td>
-                                <td>${totalUpperPrimaryschool}</td>
+                                <td>${total_upper_primary_school}</td>
                                 </tr>
                                 <tr>
                                 <td>Secondary Schools:</td>
-                                <td>${higher_secondary_6_12}</td>
+                                <td>${total_secondary_school}</td>
                                 </tr>
                                 <tr>
                                 <td>Hr. Sec. Schools:</td>
-                                <td>${higher_secondary_1_10}</td>
+                                <td>${total_high_secondary_school}</td>
                                 </tr>
                                 <tr>
                                 <td>KVS:</td>
-                                <td>${kvs}</td>
+                                <td>${total_kvs}</td>
                                 </tr>
                                 <tr>
                                 <td>NVS:</td>
-                                <td>${nvs}</td>
+                                <td>${total_nvs}</td>
                                 </tr>
                                 </tbody></table>`;
                             }else{
@@ -236,7 +242,7 @@ const Map = (props: MapModel) => {
                 }
             })
         // }
-    }, [])
+    }, [allstatedetails])
 
 
     const updateStateListDropdown = (refId: number) => {
@@ -269,43 +275,17 @@ const Map = (props: MapModel) => {
                 
                 localStorage.setItem('activeStateID', state[2])
                 props.onSelectState(state[0], state[1], state[2])
-                //changeDistrict(state[0], state[1],state[2])
                 return
             }
         })
-        // selectedMapData.data[0].data?.forEach((district: any) => {
-        //     if (Object.keys(colorCodeData).length > 0) {
-        //         district.borderColor = "#fff";
-        //         if (!localStorage.getItem('activeDistrictName')) {
-        //             district.selected = false
-        //         }
-        //         district.color = colorCodeData[district.id] !== undefined ? colorCodeData[district.id] : '#cccccc'
-        //         district.states = {
-        //             hover: {
-        //                 color: colorCodeData[district.id] !== undefined ? colorCodeData[district.id] : '#cccccc'
-        //             },
-        //             select: {
-        //                 color: colorCodeData[district.id] !== undefined ? '#A41C73' : '#cccccc'
-        //             }
-        //         }
-        //     }
-        // })
+   
         setmapOptions((previousState: MapOptionsModel) => {
             return {
                 ...previousState,
-                // series: selectedMapData.data,
-                // chart: {
-                //     height: "480",
-                //     marginTop: 70
-                // },
-                // tooltip: {
-
-                // },
+             
                 plotOptions: {
                     series: {
-                        //cursor: 'pointer',
                         name: 'District',
-                        // allowPointSelect: true,
                         events: {
                             click: function (e: any) {
                                 updateStateListDropdown(e.point._i)
@@ -314,7 +294,6 @@ const Map = (props: MapModel) => {
                         },
                         tooltip: {
                             enabled: true,
-                            /* pointFormat: '<div class="districttooltipWrapper"><span>{point.name}</span></div>', */
                         }
                     }
                 },
@@ -335,13 +314,7 @@ const Map = (props: MapModel) => {
                 localStorage.removeItem('activeDistrictName')
                 localStorage.removeItem('activeStateID')
             }
-        // }
-        // else {
-        //     localStorage.setItem('tempDistrict', '0')
-        //     localStorage.removeItem('activeDistrictName')
-        //     localStorage.removeItem('activeStateID')
-        //     props.onChangeDistrict(0)
-        // }
+        
     }
 
     return (
@@ -350,7 +323,6 @@ const Map = (props: MapModel) => {
                 constructorType={'mapChart'}
                 highcharts={Highcharts}
                 options={mapOptions}
-                // allowChartUpdate={true}
                 immutable={true}
             />
         </div>

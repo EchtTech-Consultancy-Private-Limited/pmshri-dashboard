@@ -35,11 +35,14 @@ const Performance = (props: any) => {
     const { years,mapOptions,setMapOptions, } = props
     const dispatch = useDispatch()
     const data = useSelector<StoreModel>(store => store.mapChartData) as InitialStateModel
+    
     const statewisedetails = useSelector<StoreModel>(store => store.stateWiseData) as InitialStateModel
     const states = useSelector<StoreModel>(store => store.states.data) as []
+    console.log(states,"states")
     const mapstates = useSelector<StoreModel>(store => store.mapstates) as []
     const districtData = useSelector<StoreModel>(store => store.districtCategoryData) as InitialStateModel
     const [mapData, setMapData] = useState([])
+  
     const [chartData, setchartData] = useState([])
     const [activeDistrictData, setActiveDistrictData] = useState({})
     const [colorData, setColorData] = useState([])
@@ -60,7 +63,7 @@ const Performance = (props: any) => {
         {id:"highcharts-key-uttar",val:1},
         {id:"highcharts-key-bihar",val:4},
         {id:"highcharts-key-sikkim",val:35},
-        {id:"highcharts-key-arunachal",val:28},
+        {id:"highcharts-key-arunanchal",val:28},
         {id:"highcharts-key-nagaland",val:3},
         {id:"highcharts-key-manipur",val:27},
         {id:"highcharts-key-mizoram",val:25},
@@ -92,6 +95,7 @@ const Performance = (props: any) => {
 
    
     const [StateID, setStateWiseData] = useState(localStorage.getItem('activeStateID') || '')
+   
     //console.log(StateID)
     useEffect(() => {
         if (!data.loading && data.loaded) {

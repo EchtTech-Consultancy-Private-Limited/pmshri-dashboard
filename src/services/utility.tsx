@@ -10,7 +10,7 @@ export default axios.create({
     // baseURL: 'http://localhost:4100/api/v1/',
     //baseURL: 'https://sqafpmshri.education.gov.in/',        
     // baseURL: 'https://dashboardpmshri.education.gov.in/api/v1/',    
-    //baseURL: 'https://pmshri.education.gov.in/apipmshridashboard/api/v1/',
+   // baseURL: 'https://pmshri.education.gov.in/apipmshridashboard/api/v1/',
 
     headers: {
         'Content-type': 'application/json',

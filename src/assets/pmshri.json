@@ -2,49 +2,56 @@
 	{
 		"pmshri_category_id" : 2,
 		"c_name" : "Upper Primary Only(1-8)",
-		"total_school" : 74,
+		"total_school" : 179,
+		"lgd_state_id" : 1,
+		"s_name" : "JAMMU AND KASHMIR"
+	},
+	{
+		"pmshri_category_id" : 1,
+		"c_name" : "Primary Only(1-5)",
+		"total_school" : 2,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 3,
 		"c_name" : "Higher Secondary(1-12)",
-		"total_school" : 22,
+		"total_school" : 52,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 5,
 		"c_name" : "Higher Secondary(6-12)",
-		"total_school" : 23,
+		"total_school" : 60,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 6,
 		"c_name" : "Secondary\/Sr. Sec.(1-10)",
-		"total_school" : 78,
+		"total_school" : 230,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 7,
 		"c_name" : "Secondary\/Sr. Sec.(6-10)",
-		"total_school" : 36,
+		"total_school" : 99,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 12,
 		"c_name" : "KVS",
-		"total_school" : 11,
+		"total_school" : 25,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},
 	{
 		"pmshri_category_id" : 13,
 		"c_name" : "NVS",
-		"total_school" : 10,
+		"total_school" : 24,
 		"lgd_state_id" : 1,
 		"s_name" : "JAMMU AND KASHMIR"
 	},

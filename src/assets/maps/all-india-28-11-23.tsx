@@ -14865,13 +14865,13 @@ export const india = {
         },
         {
             "type": "Feature",
-            "id": "Arunachal Pradesh",
+            "id": "Arunanchal Pradesh",
             "properties": {
                 "hc-group": "admin1",
-                "hc-key": "arunachal pradesh",
+                "hc-key": "arunanchal pradesh",
                 "hc-refid":28,
                 "hc-a2": "AP",
-                "name": "Arunachal Pradesh",
+                "name": "Arunanchal Pradesh",
                 "hc-middle-x": 0.6,
                 "hc-middle-y": 0.4
             },

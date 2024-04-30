@@ -11,6 +11,10 @@ export const getstatewisedata = (StateID: string) => ({
     type: constants.STATE_WISE_FETCH,
     payload: http.get('getstatewisedata/statewisedata/'+StateID)
 })
+export const getallstatedata = () => ({
+    type: constants.ALL_STATE_WISE_FETCH,
+    payload: http.get('getstatewisemapdata/mapallstatewisedata/')
+})
 export const getBlockData = (stateID:Number) => ({
     type: constants.BLOCKDATA_FETCH,
     payload: http.get('block/block-list/'+stateID)

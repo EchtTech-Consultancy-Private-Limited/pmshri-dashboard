@@ -5,6 +5,7 @@ import currentStateReducer from './currentState.reducer';
 import districtCategoryDataReducer from './districtCategoryData.reducer';
 import { mapChartReducer } from './mapChart.reducer';
 import { stateWiseDataReducer } from './getStateWiseData';
+import { allstateDataReducer } from './getallstatedata.reducer';
 import { blockDataReducer } from './blockList.reducer';
 import { stateColorCodeReducer } from './stateColorCode.reducer';
 import stateWiseCategoryDataReducer from './stateWiseCategoryData.reducer';
@@ -32,6 +33,7 @@ import filterWiseDashboardCardDataReducer from './dashboardCardFilterWiseData.re
 const reducers = combineReducers({
     mapChartData: mapChartReducer,
     stateWiseData: stateWiseDataReducer,
+    allStateData:allstateDataReducer,
     blockData: blockDataReducer,
     comparisonData: comparisonDataReducer,
     categoryData: stateWiseCategoryDataReducer,

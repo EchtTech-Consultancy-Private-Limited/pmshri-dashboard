@@ -19,10 +19,8 @@ const Stategallery = () => {
 
     const states = useSelector<StoreModel>(store => store?.states?.data) as []
     const gallery = useSelector<StoreModel>(store => store?.statesGallery?.data) as []
-  
     const galleryloading = useSelector<StoreModel>(store => store?.statesGallery?.loading) as []
     const [StateID, setStateWiseData] = useState(localStorage.getItem('activeStateID') || '0')
-
     const [isOpen, setOpen] = useState(false);
     const [imgUrl, setImgUrl] = useState("");
     const [stateGalleryData, setStateGalleryData] = useState<any[]>([]);

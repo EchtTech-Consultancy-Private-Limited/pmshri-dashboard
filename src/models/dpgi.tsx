@@ -8,6 +8,7 @@ export interface InitialStateModel {
 export interface StoreModel {
     mapChartData: InitialStateModel
     stateWiseData: InitialStateModel
+    allStateData:InitialStateModel
     blockData: InitialStateModel
     comparisonData: InitialStateModel
     categoryData: InitialStateModel

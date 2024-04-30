@@ -4348,7 +4348,7 @@ export const india = {
         id: "Arunanchal Pradesh",
         properties: {
           "hc-group": "admin1",
-          "hc-key": "arunachal pradesh",
+          "hc-key": "arunanchal pradesh",
           "hc-a2": "AP",
           name: "Arunanchal Pradesh",
           "hc-middle-x": 0.6,
