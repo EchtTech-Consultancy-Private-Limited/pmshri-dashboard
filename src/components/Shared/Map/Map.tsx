@@ -31,9 +31,6 @@ const Map = (props: MapModel) => {
         }
     }, [allstatedetails]);
         
-    
-    
-    // let navigate = useNavigate()
     const [mapMapping, setMapMapping] = useState([
         {id:"highcharts-key-jammu",val:33},
         {id:"highcharts-key-himachal",val:21},
@@ -73,7 +70,8 @@ const Map = (props: MapModel) => {
         {id:"highcharts-key-delhi",val:31},
         {id:"highcharts-key-rajasthan",val:12},
         ]);
-      
+       
+    // let navigate = useNavigate()
     const mapHKeyToID = (e:any) => {
         if(e !== null){
             const mm = mapMapping.filter(i => {
