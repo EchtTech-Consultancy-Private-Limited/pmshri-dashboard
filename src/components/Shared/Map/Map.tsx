@@ -164,7 +164,7 @@ const Map = (props: MapModel) => {
                          apiData?.data?.map((item:any)=>{
                  
                             if(item.s_name.toLowerCase() == this.point.name.toLowerCase()){
-                                console.log("inside")
+                                
                                 total_district_count= item.total_district_count;
                                 total_pmshri_school= item.total_pmshri_school;
                                 total_primary_school= item.total_primary_school;

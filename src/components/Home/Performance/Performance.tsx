@@ -38,7 +38,7 @@ const Performance = (props: any) => {
     
     const statewisedetails = useSelector<StoreModel>(store => store.stateWiseData) as InitialStateModel
     const states = useSelector<StoreModel>(store => store.states.data) as []
-    console.log(states,"states")
+   
     const mapstates = useSelector<StoreModel>(store => store.mapstates) as []
     const districtData = useSelector<StoreModel>(store => store.districtCategoryData) as InitialStateModel
     const [mapData, setMapData] = useState([])
